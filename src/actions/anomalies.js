@@ -1,6 +1,9 @@
 import { APIS } from "../constants/index";
 import axiosInstance from "./index";
 
+import * as fakeData from "../test/data/widgets.json";
+
+
 export const FETCH_ANOMALIES_REQ = "FETCH_ANOMALIES_REQ";
 export const FETCH_ANOMALIES_SUCCESS = "FETCH_ANOMALIES_SUCCESS";
 export const FETCH_ANOMALIES_FAIL = "FETCH_ANOMALIES_FAIL";
@@ -84,6 +87,16 @@ function fetchAddBaselineFailure(data) {
 		error: data,
 	};
 }
+
+export const fetchWidgets = () => dispatch => {
+	dispatch(requestFetchAnomalies());
+
+	return new Promise((resolve, reject) => {
+		dispatch(fetchAnomaliesSuccess(fakeData));
+		resolve(fakeData);
+	});
+};
+
 
 export const fetchAnomalies = () => dispatch => {
 	dispatch(requestFetchAnomalies());

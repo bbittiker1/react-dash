@@ -93,6 +93,7 @@ class ButtonLoader extends React.Component {
                             size={ this.props.size }
                             style={{marginBottom: '10px'}}
                             title={this.props.title}
+                            disabled={true}
                             // classes={}
                     >
                         { (isFetching && clicked) && (

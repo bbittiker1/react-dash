@@ -115,7 +115,7 @@ export default function ChangelogSideBar(props) {
 				<ListItemIcon>
 					<BugReport />
 				</ListItemIcon>
-				<ListItemText primary="Anomalies" />
+				<ListItemText primary="Widgets" />
 				{ openCollapseAnomalies ? <ExpandLess/> : <ExpandMore/> }
 			</ListItem>
 
@@ -132,46 +132,15 @@ export default function ChangelogSideBar(props) {
 					</Link>
 					<Link to={ "/app/anomalies/convicted"} style={{ textDecoration: "none" }} key={ "ManuallyConvicted" }>
 						<ListItem button className={clsx(classes.drawer, { [classes.nestedOpen]: open, [classes.nestedClosed]: !open, })}
-							selected={ activeRoute( "/app/anomalies/convicted" )} title="Manually Convicted">
+							selected={ activeRoute( "/app/anomalies/convicted" )} title="Manually Widgeted">
 							<ListItemIcon>
 								<TouchApp />
 							</ListItemIcon>
-							<ListItemText inset primary="Manually Convicted" style={{paddingLeft: "0"}}/>
+							<ListItemText inset primary="Manually Widgeted" style={{paddingLeft: "0"}}/>
 						</ListItem>
 					</Link>
 				</List>
 			</Collapse>
-
-			<ListItem button onClick={ () => setOpenCollapseFirewall(!openCollapseFirewall) } title="Firewall">
-				<ListItemIcon>
-					<Fireplace />
-				</ListItemIcon>
-				<ListItemText primary="Firewall" />
-				{ openCollapseFirewall ? <ExpandLess/> : <ExpandMore/> }
-			</ListItem>
-
-			<Collapse in={ openCollapseFirewall } timeout="auto" unmountOnExit>
-				<List component="div" disablePadding>
-					<Link to={ "/app/firewall/baseline"} style={{ textDecoration: "none" }} key={ "FirewallBaseline" }>
-						<ListItem button className={clsx(classes.drawer, { [classes.nestedOpen]: open, [classes.nestedClosed]: !open, })}
-							selected={ activeRoute( "/app/firewall/baseline" )} title="Firewall Baseline">
-							<ListItemIcon>
-								<AllInclusive />
-							</ListItemIcon>
-							<ListItemText inset primary="Baseline" style={{paddingLeft: "0"}}/>
-						</ListItem>
-					</Link>
-				</List>
-			</Collapse>
-
-			<Link to={ "/app/devices"} style={{ textDecoration: "none" }} key={ "Devices" }>
-				<ListItem selected={ activeRoute( "/app/devices" )} title="Devices">
-					<ListItemIcon>
-						<DevicesOtherIcon />
-					</ListItemIcon>
-					<ListItemText primary="Devices" />
-				</ListItem>
-			</Link>
 		</Drawer>
 	);
 }

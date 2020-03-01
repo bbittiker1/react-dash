@@ -44,7 +44,7 @@ export default function anomalies(
 			isFetchingUnpick: false,
 			isFetchingBaseline: false,
 			isFetchingMarkAnomaly: false,
-			anomalies: action.anomalies,
+			anomalies: action.anomalies.default.data,
 			error: null
 		});
 	case FETCH_ANOMALIES_FAIL:

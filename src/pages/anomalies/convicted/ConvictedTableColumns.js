@@ -186,14 +186,14 @@ export default function ConvictedTableColumns({ props, currentUserId }) {
         //     render: rowData => actionsFormatter(rowData, props, currentUserId),
         //     filtering: false
         // },
-        { title: 'Anomaly', field: 'avalues' },
+        { title: 'Widget', field: 'avalues' },
         {
-            title: 'Device Class',
-            field: 'device_type',
-            render: rowData => truncateFormatter(rowData.device_type)
+            title: 'Widget Class',
+            field: 'widget_type',
+            render: rowData => truncateFormatter(rowData.widget_type)
         },
         {
-            title: 'Anomaly Time',
+            title: 'Widget Time',
             field: 'atime',
             style: { 'overflowWrap': 'break-word' },
             headerStyle: {

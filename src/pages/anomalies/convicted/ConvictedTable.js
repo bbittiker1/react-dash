@@ -30,9 +30,9 @@ function ConvictedTable(props) {
         PICK: "Pick",
         LOADING: "Loading...",
         BASELINE: "Baseline",
-        ANOMALY: "Anomaly",
+        WIDGET: "Widget",
         ADD_BASELINE: "Add to Baseline",
-        MARK_ANOMALY: "Mark as Anomaly",
+        MARK_WIDGET: "Mark as Widget",
         FIREWALL: "Firewall",
         ADD_MONITORING: "Add to Monitoring"
     };
@@ -45,15 +45,15 @@ function ConvictedTable(props) {
         <div>
             <div style={{marginBottom: '20px'}}>
                 <Breadcrumbs aria-label="breadcrumb">
-                    <Typography color="textPrimary">{meta.ANOMALY}</Typography>
-                    <Typography color="textPrimary">{meta.TITLE}</Typography>
+                    <Typography color="textPrimary">{meta.WIDGET}</Typography>
+                    <Typography color="textPrimary">Widgeted</Typography>
                 </Breadcrumbs>
             </div>
             <div>{isLoading && <h6>Loading...</h6>}</div>
             {/*<div>{error && <h6>{error.msg}</h6>}</div>*/}
             <div>
                 <MaterialTable
-                    title={ meta.TITLE }
+                    title={ "Manually Widgeted" }
                     columns={ columns }
                     data={ convictedAnomalies }
                     options={{
