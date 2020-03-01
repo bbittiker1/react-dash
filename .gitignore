@@ -1,0 +1,11 @@
+logfile
+
+node_modules/
+logs/
+
+.env
+.env*
+*.log
+.idea/
+
+.DS_Store

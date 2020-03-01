@@ -1,0 +1,235 @@
+{
+  "data":
+  [
+  {
+    "value": 143218,
+    "id": "Apple",
+    "color": "#8E4599",
+    "label": "Apple",
+    "AppleColor": "#8E4599",
+    "pct": "23.42%"
+  },
+  {
+    "value": 58460,
+    "id": "",
+    "color": "#23813D",
+    "label": "",
+    "Color": "#23813D",
+    "pct": "9.56%"
+  },
+  {
+    "value": 54721,
+    "id": "Google",
+    "color": "#4FBFFF",
+    "label": "Google",
+    "GoogleColor": "#4FBFFF",
+    "pct": "8.95%"
+  },
+  {
+    "value": 50205,
+    "id": "Arris",
+    "color": "#2324E5",
+    "label": "Arris",
+    "ArrisColor": "#2324E5",
+    "pct": "8.21%"
+  },
+  {
+    "value": 42771,
+    "id": "Nintendo",
+    "color": "#41AD71",
+    "label": "Nintendo",
+    "NintendoColor": "#41AD71",
+    "pct": "7.00%"
+  },
+  {
+    "value": 39566,
+    "id": "Espressif",
+    "color": "#C7E27D",
+    "label": "Espressif",
+    "EspressifColor": "#C7E27D",
+    "pct": "6.47%"
+  },
+  {
+    "value": 38750,
+    "id": "Microsoft",
+    "color": "#CBE572",
+    "label": "Microsoft",
+    "MicrosoftColor": "#CBE572",
+    "pct": "6.34%"
+  },
+  {
+    "value": 25023,
+    "id": "TP-LINK",
+    "color": "#F66C4F",
+    "label": "TP-LINK",
+    "TP-LINKColor": "#F66C4F",
+    "pct": "4.09%"
+  },
+  {
+    "value": 15242,
+    "id": "Sonos",
+    "color": "#08F31F",
+    "label": "Sonos",
+    "SonosColor": "#08F31F",
+    "pct": "2.49%"
+  },
+  {
+    "value": 13646,
+    "id": "Roku",
+    "color": "#DBE328",
+    "label": "Roku",
+    "RokuColor": "#DBE328",
+    "pct": "2.23%"
+  },
+  {
+    "value": 13256,
+    "id": "Cisco",
+    "color": "#DCF3B7",
+    "label": "Cisco",
+    "CiscoColor": "#DCF3B7",
+    "pct": "2.17%"
+  },
+  {
+    "value": 12462,
+    "id": "Netgear",
+    "color": "#09A495",
+    "label": "Netgear",
+    "NetgearColor": "#09A495",
+    "pct": "2.04%"
+  },
+  {
+    "value": 11354,
+    "id": "Epson",
+    "color": "#6AE00B",
+    "label": "Epson",
+    "EpsonColor": "#6AE00B",
+    "pct": "1.86%"
+  },
+  {
+    "value": 10320,
+    "id": "Nest",
+    "color": "#0F1AAA",
+    "label": "Nest",
+    "NestColor": "#0F1AAA",
+    "pct": "1.69%"
+  },
+  {
+    "value": 10231,
+    "id": "Zyxel",
+    "color": "#E51C7A",
+    "label": "Zyxel",
+    "ZyxelColor": "#E51C7A",
+    "pct": "1.67%"
+  },
+  {
+    "value": 9895,
+    "id": "Amazon",
+    "color": "#310CE7",
+    "label": "Amazon",
+    "AmazonColor": "#310CE7",
+    "pct": "1.62%"
+  },
+  {
+    "value": 8830,
+    "id": "Sony",
+    "color": "#9F5B21",
+    "label": "Sony",
+    "SonyColor": "#9F5B21",
+    "pct": "1.44%"
+  },
+  {
+    "value": 8773,
+    "id": "Ring",
+    "color": "#11BCE7",
+    "label": "Ring",
+    "RingColor": "#11BCE7",
+    "pct": "1.43%"
+  },
+  {
+    "value": 8298,
+    "id": "MitraStar",
+    "color": "#335473",
+    "label": "MitraStar",
+    "MitraStarColor": "#335473",
+    "pct": "1.36%"
+  },
+  {
+    "value": 7694,
+    "id": "Samsung",
+    "color": "#A0269C",
+    "label": "Samsung",
+    "SamsungColor": "#A0269C",
+    "pct": "1.26%"
+  },
+  {
+    "value": 7598,
+    "id": "Brother",
+    "color": "#E8C174",
+    "label": "Brother",
+    "BrotherColor": "#E8C174",
+    "pct": "1.24%"
+  },
+  {
+    "value": 6280,
+    "id": "Fitbit",
+    "color": "#4995F5",
+    "label": "Fitbit",
+    "FitbitColor": "#4995F5",
+    "pct": "1.03%"
+  },
+  {
+    "value": 5075,
+    "id": "Roomba",
+    "color": "#73D0A7",
+    "label": "Roomba",
+    "RoombaColor": "#73D0A7",
+    "pct": "0.83%"
+  },
+  {
+    "value": 5045,
+    "id": "Belkin",
+    "color": "#D4233C",
+    "label": "Belkin",
+    "BelkinColor": "#D4233C",
+    "pct": "0.83%"
+  },
+  {
+    "value": 4732,
+    "id": "Philips",
+    "color": "#16DFD1",
+    "label": "Philips",
+    "PhilipsColor": "#16DFD1",
+    "pct": "0.77%"
+  }
+],
+
+
+  "colors": [
+  "#078C86",
+  "#E781A1",
+  "#5E03B8",
+  "#F6A8EF",
+  "#B7543D",
+  "#8B8AB5",
+  "#BF68AD",
+  "#FF634A",
+  "#63D557",
+  "#D31A95",
+  "#6E945E",
+  "#0462DF",
+  "#37D0F8",
+  "#0A1C03",
+  "#FBBA3F",
+  "#B454E4",
+  "#930AE8",
+  "#C934DF",
+  "#897D37",
+  "#53ABE4",
+  "#2D4D7D",
+  "#B86BF6",
+  "#37EDE9",
+  "#8AAD0F",
+  "#0FDAB6"
+],
+  "total": "61135"
+}

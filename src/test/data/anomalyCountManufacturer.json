@@ -1,0 +1,166 @@
+{
+  "data": [
+    {
+      "id": "Google",
+      "value": 54721,
+      "color": "#615C87",
+      "label": "Google",
+      "GoogleColor": "#615C87"
+    },
+    {
+      "id": "Apple",
+      "value": 15612,
+      "color": "#E39F5E",
+      "label": "Apple",
+      "AppleColor": "#E39F5E"
+    },
+    {
+      "id": "Arris",
+      "value": 12699,
+      "color": "#2AD7AA",
+      "label": "Arris",
+      "ArrisColor": "#2AD7AA"
+    },
+    {
+      "id": "Nintendo",
+      "value": 10153,
+      "color": "#C16976",
+      "label": "Nintendo",
+      "NintendoColor": "#C16976"
+    },
+    {
+      "id": "Amazon",
+      "value": 9895,
+      "color": "#39E501",
+      "label": "Amazon",
+      "AmazonColor": "#39E501"
+    },
+    {
+      "id": "Espressif",
+      "value": 6451,
+      "color": "#B6BF22",
+      "label": "Espressif",
+      "EspressifColor": "#B6BF22"
+    },
+    {
+      "id": "Microsoft",
+      "value": 4239,
+      "color": "#C45C9E",
+      "label": "Microsoft",
+      "MicrosoftColor": "#C45C9E"
+    },
+    {
+      "id": "TP-LINK",
+      "value": 3015,
+      "color": "#04E997",
+      "label": "TP-LINK",
+      "TP-LINKColor": "#04E997"
+    },
+    {
+      "id": "Roku",
+      "value": 2130,
+      "color": "#B31F60",
+      "label": "Roku",
+      "RokuColor": "#B31F60"
+    },
+    {
+      "id": "Epson",
+      "value": 1694,
+      "color": "#39AEA0",
+      "label": "Epson",
+      "EpsonColor": "#39AEA0"
+    },
+    {
+      "id": "Sony",
+      "value": 1517,
+      "color": "#CFE5E6",
+      "label": "Sony",
+      "SonyColor": "#CFE5E6"
+    },
+    {
+      "id": "Zyxel",
+      "value": 1490,
+      "color": "#E9B910",
+      "label": "Zyxel",
+      "ZyxelColor": "#E9B910"
+    },
+    {
+      "id": "MitraStar",
+      "value": 1200,
+      "color": "#8931E6",
+      "label": "MitraStar",
+      "MitraStarColor": "#8931E6"
+    },
+    {
+      "id": "Samsung",
+      "value": 1168,
+      "color": "#3FA507",
+      "label": "Samsung",
+      "SamsungColor": "#3FA507"
+    },
+    {
+      "id": "Netgear",
+      "value": 1165,
+      "color": "#4EC8E3",
+      "label": "Netgear",
+      "NetgearColor": "#4EC8E3"
+    },
+    {
+      "id": "Sonos",
+      "value": 997,
+      "color": "#40F3D2",
+      "label": "Sonos",
+      "SonosColor": "#40F3D2"
+    },
+    {
+      "id": "Ring",
+      "value": 904,
+      "color": "#65DA64",
+      "label": "Ring",
+      "RingColor": "#65DA64"
+    },
+    {
+      "id": "Fitbit",
+      "value": 797,
+      "color": "#B8909A",
+      "label": "Fitbit",
+      "FitbitColor": "#B8909A"
+    },
+    {
+      "id": "Brother",
+      "value": 788,
+      "color": "#2D30BA",
+      "label": "Brother",
+      "BrotherColor": "#2D30BA"
+    },
+    {
+      "id": "Roomba",
+      "value": 757,
+      "color": "#4EE432",
+      "label": "Roomba",
+      "RoombaColor": "#4EE432"
+    }
+  ],
+  "colors": [
+    "#615C87",
+    "#E39F5E",
+    "#2AD7AA",
+    "#C16976",
+    "#39E501",
+    "#B6BF22",
+    "#C45C9E",
+    "#04E997",
+    "#B31F60",
+    "#39AEA0",
+    "#CFE5E6",
+    "#E9B910",
+    "#8931E6",
+    "#3FA507",
+    "#4EC8E3",
+    "#40F3D2",
+    "#65DA64",
+    "#B8909A",
+    "#2D30BA",
+    "#4EE432"
+  ]
+}

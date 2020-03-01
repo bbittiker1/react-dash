@@ -1,0 +1,1771 @@
+{
+  "meta": {
+    "fromDateLabel": "to",
+    "toDateLabel": "from"
+  },
+  "colors": [
+    "#1D26AD",
+    "#11BE6C",
+    "#46BEAC",
+    "#9DE5BC",
+    "#E4776C",
+    "#2FE4D7",
+    "#EDBAB2",
+    "#413906",
+    "#6B2609",
+    "#EA3FC8",
+    "#FFAF04",
+    "#A38902",
+    "#05354C",
+    "#B72B5A",
+    "#D8F3F8",
+    "#129B2C",
+    "#E7E775",
+    "#CD9B2C",
+    "#AF81BF",
+    "#0C8B78",
+    "#A8D72C",
+    "#056745",
+    "#4D6112",
+    "#257A00",
+    "#2F3DC0",
+    "#D5573B",
+    "#764496",
+    "#4CE6E7",
+    "#FEC658",
+    "#B7D32D",
+    "#CF9B7E",
+    "#2C2C98",
+    "#A9186D",
+    "#906517",
+    "#DDDAC0",
+    "#CFFF69",
+    "#FF3BF4",
+    "#8CB0AB",
+    "#0AE2B3",
+    "#1BDA31",
+    "#80EDDD",
+    "#01A9F8"
+  ],
+  "data": [
+    {
+      "id": "2019-08",
+      "name": "2019-08",
+      "fmtDate": "2019-08",
+      "key": "2019-08",
+      "label": "",
+      "startDate": "2019-08-01 00:0:0.000000000 +0000 UTC",
+      "endDate": "2019-08-31 23:59:59.999000000 +0000 UTC",
+      "value": 0,
+      "v": 0,
+      "Day": "2019-08",
+      "Wearable": 15985,
+      "WearableColor": "#C29D63",
+      "Gaming": 10610,
+      "GamingColor": "#7175A9",
+      "STB": 9839,
+      "STBColor": "#4218B3",
+      "Printer": 8193,
+      "PrinterColor": "#63ED3B",
+      "Streaming": 5113,
+      "StreamingColor": "#9FEB24",
+      "Speaker": 3132,
+      "SpeakerColor": "#43D25D",
+      "Player": 3025,
+      "PlayerColor": "#E9F2DB",
+      "Thermostat": 2176,
+      "ThermostatColor": "#E2AAF6",
+      "Voice Assistant": 2100,
+      "Voice AssistantColor": "#06E09D",
+      "Router": 1880,
+      "RouterColor": "#5203CA",
+      "Network Extender": 1806,
+      "Network ExtenderColor": "#114444",
+      "Smart Hub": 1492,
+      "Smart HubColor": "#4332CD",
+      "Camera": 995,
+      "CameraColor": "#D1054A",
+      "Switch": 916,
+      "SwitchColor": "#F54494",
+      "IOT": 858,
+      "IOTColor": "#516567",
+      "Smart Plug": 721,
+      "Smart PlugColor": "#749B11",
+      "Doorbell": 622,
+      "DoorbellColor": "#7ED1CB",
+      "Vacuum Cleaner": 429,
+      "Vacuum CleanerColor": "#0B70E8",
+      "DVR": 339,
+      "DVRColor": "#7A54E8",
+      "Storage": 315,
+      "StorageColor": "#352940",
+      "Light": 237,
+      "LightColor": "#F824D0",
+      "Security Controller": 215,
+      "Security ControllerColor": "#2991C5",
+      "VOIP": 122,
+      "VOIPColor": "#BAE99A",
+      "Development Board": 95,
+      "Development BoardColor": "#2058DA",
+      "Sprinkler": 82,
+      "SprinklerColor": "#EEC84A",
+      "Network Monitor": 81,
+      "Network MonitorColor": "#1943B3",
+      "AV Receiver": 79,
+      "AV ReceiverColor": "#C65427",
+      "Home Energy": 74,
+      "Home EnergyColor": "#15BD71",
+      "Smart Scale": 66,
+      "Smart ScaleColor": "#3507B0",
+      "Smart Bed": 62,
+      "Smart BedColor": "#7E9F3C",
+      "Roti Maker": 13,
+      "Roti MakerColor": "#2CFAE3",
+      "Network Adapter": 5,
+      "Network AdapterColor": "#E46EB1",
+      "Alarm": 5,
+      "AlarmColor": "#55DF6E"
+    },
+    {
+      "id": "2019-09",
+      "name": "2019-09",
+      "fmtDate": "2019-09",
+      "key": "2019-09",
+      "label": "",
+      "startDate": "2019-09-01 00:0:0.000000000 +0000 UTC",
+      "endDate": "2019-09-30 23:59:59.999000000 +0000 UTC",
+      "value": 0,
+      "v": 0,
+      "Day": "2019-09",
+      "Wearable": 6694,
+      "WearableColor": "#C29D63",
+      "STB": 5093,
+      "STBColor": "#4218B3",
+      "Printer": 4698,
+      "PrinterColor": "#63ED3B",
+      "Gaming": 3080,
+      "GamingColor": "#7175A9",
+      "IOT": 2952,
+      "IOTColor": "#516567",
+      "Streaming": 1987,
+      "StreamingColor": "#9FEB24",
+      "Network Extender": 1960,
+      "Network ExtenderColor": "#114444",
+      "Router": 1194,
+      "RouterColor": "#5203CA",
+      "Player": 961,
+      "PlayerColor": "#E9F2DB",
+      "Speaker": 913,
+      "SpeakerColor": "#43D25D",
+      "BasePort": 797,
+      "BasePortColor": "#4C4C49",
+      "Smart Hub": 522,
+      "Smart HubColor": "#4332CD",
+      "Thermostat": 497,
+      "ThermostatColor": "#E2AAF6",
+      "Smart Plug": 482,
+      "Smart PlugColor": "#749B11",
+      "Vacuum Cleaner": 448,
+      "Vacuum CleanerColor": "#0B70E8",
+      "Camera": 376,
+      "CameraColor": "#D1054A",
+      "Light": 276,
+      "LightColor": "#F824D0",
+      "Doorbell": 271,
+      "DoorbellColor": "#7ED1CB",
+      "Switch": 233,
+      "SwitchColor": "#F54494",
+      "Storage": 179,
+      "StorageColor": "#352940",
+      "Security Controller": 102,
+      "Security ControllerColor": "#2991C5",
+      "Development Board": 87,
+      "Development BoardColor": "#2058DA",
+      "DVR": 77,
+      "DVRColor": "#7A54E8",
+      "AV Receiver": 40,
+      "AV ReceiverColor": "#C65427",
+      "VOIP": 39,
+      "VOIPColor": "#BAE99A",
+      "Smart Scale": 31,
+      "Smart ScaleColor": "#3507B0",
+      "Network Monitor": 24,
+      "Network MonitorColor": "#1943B3",
+      "Multimedia Extender": 22,
+      "Multimedia ExtenderColor": "#875B20",
+      "Alarm": 18,
+      "AlarmColor": "#55DF6E",
+      "Sprinkler": 16,
+      "SprinklerColor": "#EEC84A",
+      "Smart Bed": 13,
+      "Smart BedColor": "#7E9F3C",
+      "Home Energy": 7,
+      "Home EnergyColor": "#15BD71",
+      "Roti Maker": 4,
+      "Roti MakerColor": "#2CFAE3",
+      "Network Adapter": 3,
+      "Network AdapterColor": "#E46EB1",
+      "Voice Assistant": 2,
+      "Voice AssistantColor": "#06E09D"
+    },
+    {
+      "id": "2019-10",
+      "name": "2019-10",
+      "fmtDate": "2019-10",
+      "key": "2019-10",
+      "label": "",
+      "startDate": "2019-10-01 00:0:0.000000000 +0000 UTC",
+      "endDate": "2019-10-31 23:59:59.999000000 +0000 UTC",
+      "value": 0,
+      "v": 0,
+      "Day": "2019-10",
+      "Wearable": 18347,
+      "WearableColor": "#C29D63",
+      "STB": 15166,
+      "STBColor": "#4218B3",
+      "Printer": 13425,
+      "PrinterColor": "#63ED3B",
+      "Gaming": 8813,
+      "GamingColor": "#7175A9",
+      "IOT": 8226,
+      "IOTColor": "#516567",
+      "Streaming": 6789,
+      "StreamingColor": "#9FEB24",
+      "Network Extender": 5235,
+      "Network ExtenderColor": "#114444",
+      "Router": 3926,
+      "RouterColor": "#5203CA",
+      "Speaker": 3841,
+      "SpeakerColor": "#43D25D",
+      "Player": 2541,
+      "PlayerColor": "#E9F2DB",
+      "Thermostat": 2330,
+      "ThermostatColor": "#E2AAF6",
+      "BasePort": 2234,
+      "BasePortColor": "#4C4C49",
+      "Smart Hub": 1797,
+      "Smart HubColor": "#4332CD",
+      "Smart Plug": 1424,
+      "Smart PlugColor": "#749B11",
+      "Camera": 1158,
+      "CameraColor": "#D1054A",
+      "Doorbell": 1133,
+      "DoorbellColor": "#7ED1CB",
+      "Vacuum Cleaner": 1032,
+      "Vacuum CleanerColor": "#0B70E8",
+      "Switch": 1023,
+      "SwitchColor": "#F54494",
+      "Light": 668,
+      "LightColor": "#F824D0",
+      "Storage": 502,
+      "StorageColor": "#352940",
+      "DVR": 378,
+      "DVRColor": "#7A54E8",
+      "Security Controller": 306,
+      "Security ControllerColor": "#2991C5",
+      "Development Board": 161,
+      "Development BoardColor": "#2058DA",
+      "VOIP": 154,
+      "VOIPColor": "#BAE99A",
+      "AV Receiver": 135,
+      "AV ReceiverColor": "#C65427",
+      "Home Energy": 73,
+      "Home EnergyColor": "#15BD71",
+      "Sprinkler": 66,
+      "SprinklerColor": "#EEC84A",
+      "Smart Bed": 57,
+      "Smart BedColor": "#7E9F3C",
+      "Network Monitor": 55,
+      "Network MonitorColor": "#1943B3",
+      "Multimedia Extender": 48,
+      "Multimedia ExtenderColor": "#875B20",
+      "Smart Scale": 47,
+      "Smart ScaleColor": "#3507B0",
+      "Alarm": 43,
+      "AlarmColor": "#55DF6E",
+      "Roti Maker": 8,
+      "Roti MakerColor": "#2CFAE3",
+      "Home Theater": 8,
+      "Home TheaterColor": "#F5C430",
+      "Network Adapter": 5,
+      "Network AdapterColor": "#E46EB1",
+      "Audio Bridge": 3,
+      "Audio BridgeColor": "#530718",
+      "Smart Home Device": 2,
+      "Smart Home DeviceColor": "#3CA8AB",
+      "Voice Assistant": 2,
+      "Voice AssistantColor": "#06E09D"
+    },
+    {
+      "id": "2019-11",
+      "name": "2019-11",
+      "fmtDate": "2019-11",
+      "key": "2019-11",
+      "label": "",
+      "startDate": "2019-11-01 00:0:0.000000000 +0000 UTC",
+      "endDate": "2019-11-30 23:59:59.999000000 +0000 UTC",
+      "value": 0,
+      "v": 0,
+      "Day": "2019-11",
+      "Wearable": 16347,
+      "WearableColor": "#C29D63",
+      "STB": 11726,
+      "STBColor": "#4218B3",
+      "Printer": 10485,
+      "PrinterColor": "#63ED3B",
+      "IOT": 7795,
+      "IOTColor": "#516567",
+      "Gaming": 7484,
+      "GamingColor": "#7175A9",
+      "Streaming": 5593,
+      "StreamingColor": "#9FEB24",
+      "Network Extender": 3721,
+      "Network ExtenderColor": "#114444",
+      "Router": 2951,
+      "RouterColor": "#5203CA",
+      "Speaker": 2891,
+      "SpeakerColor": "#43D25D",
+      "Player": 2205,
+      "PlayerColor": "#E9F2DB",
+      "Thermostat": 1848,
+      "ThermostatColor": "#E2AAF6",
+      "BasePort": 1557,
+      "BasePortColor": "#4C4C49",
+      "Smart Plug": 1422,
+      "Smart PlugColor": "#749B11",
+      "Smart Hub": 1265,
+      "Smart HubColor": "#4332CD",
+      "Switch": 1011,
+      "SwitchColor": "#F54494",
+      "Vacuum Cleaner": 877,
+      "Vacuum CleanerColor": "#0B70E8",
+      "Camera": 813,
+      "CameraColor": "#D1054A",
+      "Doorbell": 805,
+      "DoorbellColor": "#7ED1CB",
+      "Light": 585,
+      "LightColor": "#F824D0",
+      "DVR": 474,
+      "DVRColor": "#7A54E8",
+      "Storage": 354,
+      "StorageColor": "#352940",
+      "Security Controller": 199,
+      "Security ControllerColor": "#2991C5",
+      "Development Board": 145,
+      "Development BoardColor": "#2058DA",
+      "VOIP": 110,
+      "VOIPColor": "#BAE99A",
+      "AV Receiver": 105,
+      "AV ReceiverColor": "#C65427",
+      "Home Energy": 64,
+      "Home EnergyColor": "#15BD71",
+      "Smart Scale": 53,
+      "Smart ScaleColor": "#3507B0",
+      "Sprinkler": 51,
+      "SprinklerColor": "#EEC84A",
+      "Smart Bed": 44,
+      "Smart BedColor": "#7E9F3C",
+      "Network Monitor": 39,
+      "Network MonitorColor": "#1943B3",
+      "Multimedia Extender": 34,
+      "Multimedia ExtenderColor": "#875B20",
+      "Alarm": 29,
+      "AlarmColor": "#55DF6E",
+      "Roti Maker": 8,
+      "Roti MakerColor": "#2CFAE3",
+      "Home Theater": 7,
+      "Home TheaterColor": "#F5C430",
+      "Network Adapter": 6,
+      "Network AdapterColor": "#E46EB1",
+      "Voice Assistant": 2,
+      "Voice AssistantColor": "#06E09D"
+    },
+    {
+      "id": "2019-12",
+      "name": "2019-12",
+      "fmtDate": "2019-12",
+      "key": "2019-12",
+      "label": "",
+      "startDate": "2019-12-01 00:0:0.000000000 +0000 UTC",
+      "endDate": "2019-12-31 23:59:59.999000000 +0000 UTC",
+      "value": 0,
+      "v": 0,
+      "Day": "2019-12",
+      "Gaming": 40834,
+      "GamingColor": "#7175A9",
+      "Wearable": 36059,
+      "WearableColor": "#C29D63",
+      "STB": 25885,
+      "STBColor": "#4218B3",
+      "IOT": 21415,
+      "IOTColor": "#516567",
+      "Printer": 14774,
+      "PrinterColor": "#63ED3B",
+      "Streaming": 10464,
+      "StreamingColor": "#9FEB24",
+      "Router": 5338,
+      "RouterColor": "#5203CA",
+      "Network Extender": 5228,
+      "Network ExtenderColor": "#114444",
+      "Player": 4635,
+      "PlayerColor": "#E9F2DB",
+      "Speaker": 4149,
+      "SpeakerColor": "#43D25D",
+      "Smart Plug": 3386,
+      "Smart PlugColor": "#749B11",
+      "Thermostat": 2518,
+      "ThermostatColor": "#E2AAF6",
+      "BasePort": 2509,
+      "BasePortColor": "#4C4C49",
+      "Vacuum Cleaner": 2371,
+      "Vacuum CleanerColor": "#0B70E8",
+      "Smart Hub": 2300,
+      "Smart HubColor": "#4332CD",
+      "Switch": 1993,
+      "SwitchColor": "#F54494",
+      "Doorbell": 1437,
+      "DoorbellColor": "#7ED1CB",
+      "Camera": 1412,
+      "CameraColor": "#D1054A",
+      "Light": 1215,
+      "LightColor": "#F824D0",
+      "Storage": 668,
+      "StorageColor": "#352940",
+      "DVR": 466,
+      "DVRColor": "#7A54E8",
+      "Security Controller": 285,
+      "Security ControllerColor": "#2991C5",
+      "Development Board": 234,
+      "Development BoardColor": "#2058DA",
+      "AV Receiver": 211,
+      "AV ReceiverColor": "#C65427",
+      "VOIP": 124,
+      "VOIPColor": "#BAE99A",
+      "Multimedia Extender": 122,
+      "Multimedia ExtenderColor": "#875B20",
+      "Network Monitor": 70,
+      "Network MonitorColor": "#1943B3",
+      "Smart Scale": 69,
+      "Smart ScaleColor": "#3507B0",
+      "Home Energy": 58,
+      "Home EnergyColor": "#15BD71",
+      "Smart Bed": 42,
+      "Smart BedColor": "#7E9F3C",
+      "Alarm": 36,
+      "AlarmColor": "#55DF6E",
+      "Sprinkler": 35,
+      "SprinklerColor": "#EEC84A",
+      "Voice Assistant": 17,
+      "Voice AssistantColor": "#06E09D",
+      "Home Theater": 12,
+      "Home TheaterColor": "#F5C430",
+      "Roti Maker": 10,
+      "Roti MakerColor": "#2CFAE3",
+      "Crypto Miner": 6,
+      "Crypto MinerColor": "#956A26",
+      "Gateway": 3,
+      "GatewayColor": "#CEB5E5",
+      "Network Adapter": 2,
+      "Network AdapterColor": "#E46EB1"
+    },
+    {
+      "id": "2020-01",
+      "name": "2020-01",
+      "fmtDate": "2020-01",
+      "key": "2020-01",
+      "label": "",
+      "startDate": "2020-01-01 00:0:0.000000000 +0000 UTC",
+      "endDate": "2020-01-31 23:59:59.999000000 +0000 UTC",
+      "value": 0,
+      "v": 0,
+      "Day": "2020-01",
+      "STB": 16196,
+      "STBColor": "#4218B3",
+      "Gaming": 15915,
+      "GamingColor": "#7175A9",
+      "Wearable": 12529,
+      "WearableColor": "#C29D63",
+      "IOT": 9854,
+      "IOTColor": "#516567",
+      "Printer": 7364,
+      "PrinterColor": "#63ED3B",
+      "Streaming": 4638,
+      "StreamingColor": "#9FEB24",
+      "Router": 2645,
+      "RouterColor": "#5203CA",
+      "Network Extender": 1803,
+      "Network ExtenderColor": "#114444",
+      "Player": 1605,
+      "PlayerColor": "#E9F2DB",
+      "Speaker": 1212,
+      "SpeakerColor": "#43D25D",
+      "BasePort": 1200,
+      "BasePortColor": "#4C4C49",
+      "Smart Plug": 998,
+      "Smart PlugColor": "#749B11",
+      "Vacuum Cleaner": 935,
+      "Vacuum CleanerColor": "#0B70E8",
+      "Smart Hub": 874,
+      "Smart HubColor": "#4332CD",
+      "Thermostat": 706,
+      "ThermostatColor": "#E2AAF6",
+      "Camera": 591,
+      "CameraColor": "#D1054A",
+      "Doorbell": 564,
+      "DoorbellColor": "#7ED1CB",
+      "Light": 497,
+      "LightColor": "#F824D0",
+      "Switch": 463,
+      "SwitchColor": "#F54494",
+      "Storage": 368,
+      "StorageColor": "#352940",
+      "DVR": 135,
+      "DVRColor": "#7A54E8",
+      "Development Board": 118,
+      "Development BoardColor": "#2058DA",
+      "Security Controller": 103,
+      "Security ControllerColor": "#2991C5",
+      "AV Receiver": 88,
+      "AV ReceiverColor": "#C65427",
+      "Multimedia Extender": 53,
+      "Multimedia ExtenderColor": "#875B20",
+      "Smart Scale": 40,
+      "Smart ScaleColor": "#3507B0",
+      "VOIP": 37,
+      "VOIPColor": "#BAE99A",
+      "Network Monitor": 28,
+      "Network MonitorColor": "#1943B3",
+      "Home Energy": 21,
+      "Home EnergyColor": "#15BD71",
+      "Voice Assistant": 17,
+      "Voice AssistantColor": "#06E09D",
+      "Alarm": 12,
+      "AlarmColor": "#55DF6E",
+      "Smart Bed": 9,
+      "Smart BedColor": "#7E9F3C",
+      "Sprinkler": 8,
+      "SprinklerColor": "#EEC84A",
+      "Home Theater": 7,
+      "Home TheaterColor": "#F5C430",
+      "Socket": 5,
+      "SocketColor": "#8E9D6D",
+      "Gateway": 3,
+      "GatewayColor": "#CEB5E5",
+      "Crypto Miner": 2,
+      "Crypto MinerColor": "#956A26",
+      "Network Adapter": 2,
+      "Network AdapterColor": "#E46EB1"
+    }
+  ],
+  "keys": [
+    "Thermostat",
+    "E-Reader",
+    "Storage",
+    "Home Theater",
+    "IOT",
+    "Smart Bed",
+    "Crypto Miner",
+    "Printer",
+    "DVR",
+    "Sprinkler",
+    "Switch",
+    "VOIP",
+    "Camera",
+    "Gaming",
+    "Network Extender",
+    "Smart Home Device",
+    "Streaming",
+    "Light",
+    "Speaker",
+    "Smart Scale",
+    "Smart Plug",
+    "Router",
+    "Audio Bridge",
+    "BasePort",
+    "Development Board",
+    "Socket",
+    "Network Monitor",
+    "Doorbell",
+    "Player",
+    "Gateway",
+    "Security Controller",
+    "Vacuum Cleaner",
+    "STB",
+    "Network Adapter",
+    "Smart Hub",
+    "Alarm",
+    "Home Energy",
+    "Wearable",
+    "AV Receiver",
+    "Multimedia Extender",
+    "Voice Assistant",
+    "Roti Maker"
+  ],
+  "legendKeys": [
+    {
+      "key": "Thermostat",
+      "id": "Thermostat",
+      "color": "#E2AAF6",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 706
+        },
+        {
+          "x": "2019-12",
+          "y": 2518
+        },
+        {
+          "x": "2019-11",
+          "y": 1848
+        },
+        {
+          "x": "2019-10",
+          "y": 2330
+        },
+        {
+          "x": "2019-09",
+          "y": 497
+        },
+        {
+          "x": "2019-08",
+          "y": 2176
+        }
+      ]
+    },
+    {
+      "key": "E-Reader",
+      "id": "E-Reader",
+      "color": "#B81E42",
+      "data": []
+    },
+    {
+      "key": "Storage",
+      "id": "Storage",
+      "color": "#352940",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 368
+        },
+        {
+          "x": "2019-12",
+          "y": 668
+        },
+        {
+          "x": "2019-11",
+          "y": 354
+        },
+        {
+          "x": "2019-10",
+          "y": 502
+        },
+        {
+          "x": "2019-09",
+          "y": 179
+        },
+        {
+          "x": "2019-08",
+          "y": 315
+        }
+      ]
+    },
+    {
+      "key": "Home Theater",
+      "id": "Home Theater",
+      "color": "#F5C430",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 7
+        },
+        {
+          "x": "2019-12",
+          "y": 12
+        },
+        {
+          "x": "2019-11",
+          "y": 7
+        },
+        {
+          "x": "2019-10",
+          "y": 8
+        }
+      ]
+    },
+    {
+      "key": "IOT",
+      "id": "IOT",
+      "color": "#516567",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 9854
+        },
+        {
+          "x": "2019-12",
+          "y": 21415
+        },
+        {
+          "x": "2019-11",
+          "y": 7795
+        },
+        {
+          "x": "2019-10",
+          "y": 8226
+        },
+        {
+          "x": "2019-09",
+          "y": 2952
+        },
+        {
+          "x": "2019-08",
+          "y": 858
+        }
+      ]
+    },
+    {
+      "key": "Smart Bed",
+      "id": "Smart Bed",
+      "color": "#7E9F3C",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 9
+        },
+        {
+          "x": "2019-12",
+          "y": 42
+        },
+        {
+          "x": "2019-11",
+          "y": 44
+        },
+        {
+          "x": "2019-10",
+          "y": 57
+        },
+        {
+          "x": "2019-09",
+          "y": 13
+        },
+        {
+          "x": "2019-08",
+          "y": 62
+        }
+      ]
+    },
+    {
+      "key": "Crypto Miner",
+      "id": "Crypto Miner",
+      "color": "#956A26",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 2
+        },
+        {
+          "x": "2019-12",
+          "y": 6
+        }
+      ]
+    },
+    {
+      "key": "Printer",
+      "id": "Printer",
+      "color": "#63ED3B",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 7364
+        },
+        {
+          "x": "2019-12",
+          "y": 14774
+        },
+        {
+          "x": "2019-11",
+          "y": 10485
+        },
+        {
+          "x": "2019-10",
+          "y": 13425
+        },
+        {
+          "x": "2019-09",
+          "y": 4698
+        },
+        {
+          "x": "2019-08",
+          "y": 8193
+        }
+      ]
+    },
+    {
+      "key": "DVR",
+      "id": "DVR",
+      "color": "#7A54E8",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 135
+        },
+        {
+          "x": "2019-12",
+          "y": 466
+        },
+        {
+          "x": "2019-11",
+          "y": 474
+        },
+        {
+          "x": "2019-10",
+          "y": 378
+        },
+        {
+          "x": "2019-09",
+          "y": 77
+        },
+        {
+          "x": "2019-08",
+          "y": 339
+        }
+      ]
+    },
+    {
+      "key": "Sprinkler",
+      "id": "Sprinkler",
+      "color": "#EEC84A",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 8
+        },
+        {
+          "x": "2019-12",
+          "y": 35
+        },
+        {
+          "x": "2019-11",
+          "y": 51
+        },
+        {
+          "x": "2019-10",
+          "y": 66
+        },
+        {
+          "x": "2019-09",
+          "y": 16
+        },
+        {
+          "x": "2019-08",
+          "y": 82
+        }
+      ]
+    },
+    {
+      "key": "Switch",
+      "id": "Switch",
+      "color": "#F54494",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 463
+        },
+        {
+          "x": "2019-12",
+          "y": 1993
+        },
+        {
+          "x": "2019-11",
+          "y": 1011
+        },
+        {
+          "x": "2019-10",
+          "y": 1023
+        },
+        {
+          "x": "2019-09",
+          "y": 233
+        },
+        {
+          "x": "2019-08",
+          "y": 916
+        }
+      ]
+    },
+    {
+      "key": "VOIP",
+      "id": "VOIP",
+      "color": "#BAE99A",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 37
+        },
+        {
+          "x": "2019-12",
+          "y": 124
+        },
+        {
+          "x": "2019-11",
+          "y": 110
+        },
+        {
+          "x": "2019-10",
+          "y": 154
+        },
+        {
+          "x": "2019-09",
+          "y": 39
+        },
+        {
+          "x": "2019-08",
+          "y": 122
+        }
+      ]
+    },
+    {
+      "key": "Camera",
+      "id": "Camera",
+      "color": "#D1054A",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 591
+        },
+        {
+          "x": "2019-12",
+          "y": 1412
+        },
+        {
+          "x": "2019-11",
+          "y": 813
+        },
+        {
+          "x": "2019-10",
+          "y": 1158
+        },
+        {
+          "x": "2019-09",
+          "y": 376
+        },
+        {
+          "x": "2019-08",
+          "y": 995
+        }
+      ]
+    },
+    {
+      "key": "Gaming",
+      "id": "Gaming",
+      "color": "#7175A9",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 15915
+        },
+        {
+          "x": "2019-12",
+          "y": 40834
+        },
+        {
+          "x": "2019-11",
+          "y": 7484
+        },
+        {
+          "x": "2019-10",
+          "y": 8813
+        },
+        {
+          "x": "2019-09",
+          "y": 3080
+        },
+        {
+          "x": "2019-08",
+          "y": 10610
+        }
+      ]
+    },
+    {
+      "key": "Network Extender",
+      "id": "Network Extender",
+      "color": "#114444",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 1803
+        },
+        {
+          "x": "2019-12",
+          "y": 5228
+        },
+        {
+          "x": "2019-11",
+          "y": 3721
+        },
+        {
+          "x": "2019-10",
+          "y": 5235
+        },
+        {
+          "x": "2019-09",
+          "y": 1960
+        },
+        {
+          "x": "2019-08",
+          "y": 1806
+        }
+      ]
+    },
+    {
+      "key": "Smart Home Device",
+      "id": "Smart Home Device",
+      "color": "#3CA8AB",
+      "data": [
+        {
+          "x": "2019-10",
+          "y": 2
+        }
+      ]
+    },
+    {
+      "key": "Streaming",
+      "id": "Streaming",
+      "color": "#9FEB24",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 4638
+        },
+        {
+          "x": "2019-12",
+          "y": 10464
+        },
+        {
+          "x": "2019-11",
+          "y": 5593
+        },
+        {
+          "x": "2019-10",
+          "y": 6789
+        },
+        {
+          "x": "2019-09",
+          "y": 1987
+        },
+        {
+          "x": "2019-08",
+          "y": 5113
+        }
+      ]
+    },
+    {
+      "key": "Light",
+      "id": "Light",
+      "color": "#F824D0",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 497
+        },
+        {
+          "x": "2019-12",
+          "y": 1215
+        },
+        {
+          "x": "2019-11",
+          "y": 585
+        },
+        {
+          "x": "2019-10",
+          "y": 668
+        },
+        {
+          "x": "2019-09",
+          "y": 276
+        },
+        {
+          "x": "2019-08",
+          "y": 237
+        }
+      ]
+    },
+    {
+      "key": "Speaker",
+      "id": "Speaker",
+      "color": "#43D25D",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 1212
+        },
+        {
+          "x": "2019-12",
+          "y": 4149
+        },
+        {
+          "x": "2019-11",
+          "y": 2891
+        },
+        {
+          "x": "2019-10",
+          "y": 3841
+        },
+        {
+          "x": "2019-09",
+          "y": 913
+        },
+        {
+          "x": "2019-08",
+          "y": 3132
+        }
+      ]
+    },
+    {
+      "key": "Smart Scale",
+      "id": "Smart Scale",
+      "color": "#3507B0",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 40
+        },
+        {
+          "x": "2019-12",
+          "y": 69
+        },
+        {
+          "x": "2019-11",
+          "y": 53
+        },
+        {
+          "x": "2019-10",
+          "y": 47
+        },
+        {
+          "x": "2019-09",
+          "y": 31
+        },
+        {
+          "x": "2019-08",
+          "y": 66
+        }
+      ]
+    },
+    {
+      "key": "Smart Plug",
+      "id": "Smart Plug",
+      "color": "#749B11",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 998
+        },
+        {
+          "x": "2019-12",
+          "y": 3386
+        },
+        {
+          "x": "2019-11",
+          "y": 1422
+        },
+        {
+          "x": "2019-10",
+          "y": 1424
+        },
+        {
+          "x": "2019-09",
+          "y": 482
+        },
+        {
+          "x": "2019-08",
+          "y": 721
+        }
+      ]
+    },
+    {
+      "key": "Router",
+      "id": "Router",
+      "color": "#5203CA",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 2645
+        },
+        {
+          "x": "2019-12",
+          "y": 5338
+        },
+        {
+          "x": "2019-11",
+          "y": 2951
+        },
+        {
+          "x": "2019-10",
+          "y": 3926
+        },
+        {
+          "x": "2019-09",
+          "y": 1194
+        },
+        {
+          "x": "2019-08",
+          "y": 1880
+        }
+      ]
+    },
+    {
+      "key": "Audio Bridge",
+      "id": "Audio Bridge",
+      "color": "#530718",
+      "data": [
+        {
+          "x": "2019-10",
+          "y": 3
+        }
+      ]
+    },
+    {
+      "key": "BasePort",
+      "id": "BasePort",
+      "color": "#4C4C49",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 1200
+        },
+        {
+          "x": "2019-12",
+          "y": 2509
+        },
+        {
+          "x": "2019-11",
+          "y": 1557
+        },
+        {
+          "x": "2019-10",
+          "y": 2234
+        },
+        {
+          "x": "2019-09",
+          "y": 797
+        }
+      ]
+    },
+    {
+      "key": "Development Board",
+      "id": "Development Board",
+      "color": "#2058DA",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 118
+        },
+        {
+          "x": "2019-12",
+          "y": 234
+        },
+        {
+          "x": "2019-11",
+          "y": 145
+        },
+        {
+          "x": "2019-10",
+          "y": 161
+        },
+        {
+          "x": "2019-09",
+          "y": 87
+        },
+        {
+          "x": "2019-08",
+          "y": 95
+        }
+      ]
+    },
+    {
+      "key": "Socket",
+      "id": "Socket",
+      "color": "#8E9D6D",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 5
+        }
+      ]
+    },
+    {
+      "key": "Network Monitor",
+      "id": "Network Monitor",
+      "color": "#1943B3",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 28
+        },
+        {
+          "x": "2019-12",
+          "y": 70
+        },
+        {
+          "x": "2019-11",
+          "y": 39
+        },
+        {
+          "x": "2019-10",
+          "y": 55
+        },
+        {
+          "x": "2019-09",
+          "y": 24
+        },
+        {
+          "x": "2019-08",
+          "y": 81
+        }
+      ]
+    },
+    {
+      "key": "Doorbell",
+      "id": "Doorbell",
+      "color": "#7ED1CB",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 564
+        },
+        {
+          "x": "2019-12",
+          "y": 1437
+        },
+        {
+          "x": "2019-11",
+          "y": 805
+        },
+        {
+          "x": "2019-10",
+          "y": 1133
+        },
+        {
+          "x": "2019-09",
+          "y": 271
+        },
+        {
+          "x": "2019-08",
+          "y": 622
+        }
+      ]
+    },
+    {
+      "key": "Player",
+      "id": "Player",
+      "color": "#E9F2DB",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 1605
+        },
+        {
+          "x": "2019-12",
+          "y": 4635
+        },
+        {
+          "x": "2019-11",
+          "y": 2205
+        },
+        {
+          "x": "2019-10",
+          "y": 2541
+        },
+        {
+          "x": "2019-09",
+          "y": 961
+        },
+        {
+          "x": "2019-08",
+          "y": 3025
+        }
+      ]
+    },
+    {
+      "key": "Gateway",
+      "id": "Gateway",
+      "color": "#CEB5E5",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 3
+        },
+        {
+          "x": "2019-12",
+          "y": 3
+        }
+      ]
+    },
+    {
+      "key": "Security Controller",
+      "id": "Security Controller",
+      "color": "#2991C5",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 103
+        },
+        {
+          "x": "2019-12",
+          "y": 285
+        },
+        {
+          "x": "2019-11",
+          "y": 199
+        },
+        {
+          "x": "2019-10",
+          "y": 306
+        },
+        {
+          "x": "2019-09",
+          "y": 102
+        },
+        {
+          "x": "2019-08",
+          "y": 215
+        }
+      ]
+    },
+    {
+      "key": "Vacuum Cleaner",
+      "id": "Vacuum Cleaner",
+      "color": "#0B70E8",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 935
+        },
+        {
+          "x": "2019-12",
+          "y": 2371
+        },
+        {
+          "x": "2019-11",
+          "y": 877
+        },
+        {
+          "x": "2019-10",
+          "y": 1032
+        },
+        {
+          "x": "2019-09",
+          "y": 448
+        },
+        {
+          "x": "2019-08",
+          "y": 429
+        }
+      ]
+    },
+    {
+      "key": "STB",
+      "id": "STB",
+      "color": "#4218B3",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 16196
+        },
+        {
+          "x": "2019-12",
+          "y": 25885
+        },
+        {
+          "x": "2019-11",
+          "y": 11726
+        },
+        {
+          "x": "2019-10",
+          "y": 15166
+        },
+        {
+          "x": "2019-09",
+          "y": 5093
+        },
+        {
+          "x": "2019-08",
+          "y": 9839
+        }
+      ]
+    },
+    {
+      "key": "Network Adapter",
+      "id": "Network Adapter",
+      "color": "#E46EB1",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 2
+        },
+        {
+          "x": "2019-12",
+          "y": 2
+        },
+        {
+          "x": "2019-11",
+          "y": 6
+        },
+        {
+          "x": "2019-10",
+          "y": 5
+        },
+        {
+          "x": "2019-09",
+          "y": 3
+        },
+        {
+          "x": "2019-08",
+          "y": 5
+        }
+      ]
+    },
+    {
+      "key": "Smart Hub",
+      "id": "Smart Hub",
+      "color": "#4332CD",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 874
+        },
+        {
+          "x": "2019-12",
+          "y": 2300
+        },
+        {
+          "x": "2019-11",
+          "y": 1265
+        },
+        {
+          "x": "2019-10",
+          "y": 1797
+        },
+        {
+          "x": "2019-09",
+          "y": 522
+        },
+        {
+          "x": "2019-08",
+          "y": 1492
+        }
+      ]
+    },
+    {
+      "key": "Alarm",
+      "id": "Alarm",
+      "color": "#55DF6E",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 12
+        },
+        {
+          "x": "2019-12",
+          "y": 36
+        },
+        {
+          "x": "2019-11",
+          "y": 29
+        },
+        {
+          "x": "2019-10",
+          "y": 43
+        },
+        {
+          "x": "2019-09",
+          "y": 18
+        },
+        {
+          "x": "2019-08",
+          "y": 5
+        }
+      ]
+    },
+    {
+      "key": "Home Energy",
+      "id": "Home Energy",
+      "color": "#15BD71",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 21
+        },
+        {
+          "x": "2019-12",
+          "y": 58
+        },
+        {
+          "x": "2019-11",
+          "y": 64
+        },
+        {
+          "x": "2019-10",
+          "y": 73
+        },
+        {
+          "x": "2019-09",
+          "y": 7
+        },
+        {
+          "x": "2019-08",
+          "y": 74
+        }
+      ]
+    },
+    {
+      "key": "Wearable",
+      "id": "Wearable",
+      "color": "#C29D63",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 12529
+        },
+        {
+          "x": "2019-12",
+          "y": 36059
+        },
+        {
+          "x": "2019-11",
+          "y": 16347
+        },
+        {
+          "x": "2019-10",
+          "y": 18347
+        },
+        {
+          "x": "2019-09",
+          "y": 6694
+        },
+        {
+          "x": "2019-08",
+          "y": 15985
+        }
+      ]
+    },
+    {
+      "key": "AV Receiver",
+      "id": "AV Receiver",
+      "color": "#C65427",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 88
+        },
+        {
+          "x": "2019-12",
+          "y": 211
+        },
+        {
+          "x": "2019-11",
+          "y": 105
+        },
+        {
+          "x": "2019-10",
+          "y": 135
+        },
+        {
+          "x": "2019-09",
+          "y": 40
+        },
+        {
+          "x": "2019-08",
+          "y": 79
+        }
+      ]
+    },
+    {
+      "key": "Multimedia Extender",
+      "id": "Multimedia Extender",
+      "color": "#875B20",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 53
+        },
+        {
+          "x": "2019-12",
+          "y": 122
+        },
+        {
+          "x": "2019-11",
+          "y": 34
+        },
+        {
+          "x": "2019-10",
+          "y": 48
+        },
+        {
+          "x": "2019-09",
+          "y": 22
+        }
+      ]
+    },
+    {
+      "key": "Voice Assistant",
+      "id": "Voice Assistant",
+      "color": "#06E09D",
+      "data": [
+        {
+          "x": "2020-01",
+          "y": 17
+        },
+        {
+          "x": "2019-12",
+          "y": 17
+        },
+        {
+          "x": "2019-11",
+          "y": 2
+        },
+        {
+          "x": "2019-10",
+          "y": 2
+        },
+        {
+          "x": "2019-09",
+          "y": 2
+        },
+        {
+          "x": "2019-08",
+          "y": 2100
+        }
+      ]
+    },
+    {
+      "key": "Roti Maker",
+      "id": "Roti Maker",
+      "color": "#2CFAE3",
+      "data": [
+        {
+          "x": "2019-12",
+          "y": 10
+        },
+        {
+          "x": "2019-11",
+          "y": 8
+        },
+        {
+          "x": "2019-10",
+          "y": 8
+        },
+        {
+          "x": "2019-09",
+          "y": 4
+        },
+        {
+          "x": "2019-08",
+          "y": 13
+        }
+      ]
+    }
+  ]
+}
