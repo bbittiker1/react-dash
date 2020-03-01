@@ -3,7 +3,7 @@ window.ENV = {
 	"REACT_APP_NODE_ENV": "local",
 	"REACT_APP_PORT": 5000,
 	"REACT_APP_BACKEND": true,
-	"REACT_APP_API_SERVER_URL": "http://localhost:3000",
+	"REACT_APP_API_SERVER_URL": "http://localhost:5000",
 	"REACT_APP_IS_DEBUG": true,
 	"DEBUG_USERNAME": "user@acme.com",
 	"DEBUG_PASSWORD": "Acme1234!",

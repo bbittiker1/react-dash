@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
-import axiosInstance from "../../../actions";
+
 
 import { ResponsiveBar } from "@nivo/bar";
 import Card from "@material-ui/core/Card";
@@ -14,6 +14,8 @@ import { makeStyles } from "@material-ui/styles";
 
 import { APIS } from "../../../constants";
 import Legend from "./DevicesHousingInsightLegend";
+
+import * as fakeData from "../../../test/data/housingInsight.json";
 
 const chartStyles = makeStyles(theme => ({
     card: {
@@ -74,32 +76,33 @@ export default function DevicesHousingInsight() {
     const classes = chartStyles();
 
     useEffect( () => {
-        async function fetchData() {
+        async function fetchData(f, t, l) {
             setLoading(true);
-            return await axiosInstance().get(APIS.devicesHousingInsight);
+
+            return new Promise((resolve, reject) => {
+                resolve(fakeData.default);
+            });
         }
 
         fetchData()
             .then(res => {
-                setKeys(res.data.keys);
-                setLegendKeys(res.data.legendKeys);
+                setKeys(res.keys);
+                setLegendKeys(res.legendKeys);
                 // setTotals(res.data.totals);
-                setData(res.data.data);
-                setColors(res.data.colors);
-                setMeta(res.data.meta);
+                setData(res.data);
+                setColors(res.colors);
+                // setMeta(res.data.meta);
             })
             .catch( res => {
                 // console.log(res);
-                setError(res?.response?.data);
+                setError("Unknown error occurred.");
             })
             .finally(() => {
                 setLoading(false)
             });
     }, []);
 
-    const fromDateLabel = meta ? meta.fromDateLabel : '';
-    const toDateLabel = meta ? meta.toDateLabel : '';
-    const title = "Devices Housing Insight Month Over Month";
+    const title = "Widget Insight Month Over Month";
 
     return (
         <Card className={classes.card} elevation={0}>
@@ -119,7 +122,7 @@ export default function DevicesHousingInsight() {
                     </IconButton>
                 }
                 title={title}
-                subheader={`From ${fromDateLabel} to ${toDateLabel}`}
+                subheader={`Undecided subheader`}
             />
 
             <CardContent>

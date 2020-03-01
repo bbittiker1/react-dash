@@ -1,5 +1,6 @@
 {
-  "name": "react-iotchangelog-dash",
+  "name": "react-dash",
+  "homepage": "https://bbittiker1.github.io/react-dash/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
