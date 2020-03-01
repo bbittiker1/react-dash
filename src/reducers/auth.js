@@ -18,8 +18,7 @@ export default function auth(state = {
 			error: null
 		});
 	case LOGIN_SUCCESS:
-
-		const o =  Object.assign({}, state, {
+		return Object.assign({}, state, {
 			isFetching: false,
 			isAuthenticated: true,
 			userId: action.payload.user.id,
@@ -27,7 +26,6 @@ export default function auth(state = {
 			errorMessage: "",
 			error: null
 		});
-		return o;
 	case LOGIN_FAILURE:
 		return Object.assign({}, state, {
 			isFetching: false,

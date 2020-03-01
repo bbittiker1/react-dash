@@ -22,11 +22,6 @@ import { ENVIRONMENTS } from "../constants/index";
 
 const ToastCloseButton = ({closeToast}) => <i onClick={closeToast} className="fa fa-times"/>;
 
-// App.propTypes = {
-// 	dispatch: PropTypes.func.isRequired,
-// 	closeToast: PropTypes.func.isRequired
-// };
-
 class App extends React.Component {
 	constructor(props) {
 		super(props);
@@ -48,28 +43,16 @@ class App extends React.Component {
 	static get propTypes() {
 		return {
 			dispatch: PropTypes.func.isRequired,
-			closeToast: PropTypes.func
+			closeToast: PropTypes.func,
+			isAuthenticated: PropTypes.bool
 		};
 	}
-
-
-
-	componentDidUpdate(prevProps, prevState) {
-		if (prevProps.isAuthenticated !== this.props.isAuthenticated) {
-			console.log(this.props.isAuthenticated);
-		}
-
-	}
-
 
 	// static defaultProps = {
 	// 	closeToast: () => {},
 	// };
 
 	render() {
-
-		console.log(this.props.dispatch);
-
 		return (
 			<ThemeProvider theme={theme}>
 				<div>
@@ -97,11 +80,7 @@ class App extends React.Component {
 }
 
 const mapStateToProps = state => ({
-
-
 	isAuthenticated: state.auth.isAuthenticated,
-
 });
-
 
 export default connect(mapStateToProps)(App);

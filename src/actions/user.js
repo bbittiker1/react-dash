@@ -1,9 +1,4 @@
-// import sha256 from "js-sha256";
-
-// import axiosInstance from "./index";
-import {APIS, JWT_TOKEN} from "../constants/index";
 import {clearUserSession, setUserSession} from "../selectors";
-import set from "@babel/runtime/helpers/esm/set";
 
 export const LOGIN_REQUEST = "LOGIN_REQUEST";
 export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
@@ -22,16 +17,16 @@ function requestLogin() {
 	};
 }
 
-function loginError(data) {
-	return {
-		type: LOGIN_FAILURE,
-		isFetching: false,
-		isAuthenticated: false,
-		userId: null,
-		username: null,
-		error: data
-	};
-}
+// function loginError(data) {
+// 	return {
+// 		type: LOGIN_FAILURE,
+// 		isFetching: false,
+// 		isAuthenticated: false,
+// 		userId: null,
+// 		username: null,
+// 		error: data
+// 	};
+// }
 
 function requestLogout() {
 	return {
@@ -67,9 +62,8 @@ export const loginUser = (creds) => {
 	return dispatch => {
 		dispatch(requestLogin(creds));
 
-		return new Promise((resolve, reject) => {
+		return new Promise((resolve) => {
 			setTimeout(() => resolve(), 2000);
-
 		}).then(() => {
 			const user = {
 				id: 1,
