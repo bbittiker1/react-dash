@@ -1,0 +1,1457 @@
+{
+  "data":[
+    {
+      "value":3,
+      "id":"Actiontec Electronics::Actiontec Electronics 6200::Network Extender",
+      "color":"#F1CE8D",
+      "label":"Actiontec Electronics::Actiontec Electronics 6200::Network Extender",
+      "Actiontec Electronics::Actiontec Electronics 6200::Network ExtenderColor":"#F1CE8D",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":6,
+      "id":"Apple::AirPortexpress::Router",
+      "color":"#71B218",
+      "label":"Apple::AirPortexpress::Router",
+      "Apple::AirPortexpress::RouterColor":"#71B218",
+      "pct":"0.06",
+      "fmtPct":"0.06%"
+    },
+    {
+      "value":5,
+      "id":"Apple::AirPortextreme::Router",
+      "color":"#D28DDE",
+      "label":"Apple::AirPortextreme::Router",
+      "Apple::AirPortextreme::RouterColor":"#D28DDE",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":10,
+      "id":"Apple::AirPortTime Capsule::Router",
+      "color":"#2A3083",
+      "label":"Apple::AirPortTime Capsule::Router",
+      "Apple::AirPortTime Capsule::RouterColor":"#2A3083",
+      "pct":"0.11",
+      "fmtPct":"0.11%"
+    },
+    {
+      "value":67,
+      "id":"Apple::Apple iPod::Player",
+      "color":"#1A3701",
+      "label":"Apple::Apple iPod::Player",
+      "Apple::Apple iPod::PlayerColor":"#1A3701",
+      "pct":"0.72",
+      "fmtPct":"0.72%"
+    },
+    {
+      "value":1537,
+      "id":"Apple::Apple iWatch::Wearable",
+      "color":"#685D24",
+      "label":"Apple::Apple iWatch::Wearable",
+      "Apple::Apple iWatch::WearableColor":"#685D24",
+      "pct":"16.49",
+      "fmtPct":"16.49%"
+    },
+    {
+      "value":255,
+      "id":"Apple::Apple TV::Streaming",
+      "color":"#410BAA",
+      "label":"Apple::Apple TV::Streaming",
+      "Apple::Apple TV::StreamingColor":"#410BAA",
+      "pct":"2.74",
+      "fmtPct":"2.74%"
+    },
+    {
+      "value":145,
+      "id":"Apple::iPodtouch::Player",
+      "color":"#44572F",
+      "label":"Apple::iPodtouch::Player",
+      "Apple::iPodtouch::PlayerColor":"#44572F",
+      "pct":"1.56",
+      "fmtPct":"1.56%"
+    },
+    {
+      "value":19,
+      "id":"Apple::TV2::Streaming",
+      "color":"#9534F2",
+      "label":"Apple::TV2::Streaming",
+      "Apple::TV2::StreamingColor":"#9534F2",
+      "pct":"0.20",
+      "fmtPct":"0.20%"
+    },
+    {
+      "value":5,
+      "id":"Apple::TV3::Streaming",
+      "color":"#6D025B",
+      "label":"Apple::TV3::Streaming",
+      "Apple::TV3::StreamingColor":"#6D025B",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":3,
+      "id":"Apple::TV4::Streaming",
+      "color":"#6C2905",
+      "label":"Apple::TV4::Streaming",
+      "Apple::TV4::StreamingColor":"#6C2905",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":7,
+      "id":"Arris::Arris IPC1100P2::STB",
+      "color":"#A6D5DB",
+      "label":"Arris::Arris IPC1100P2::STB",
+      "Arris::Arris IPC1100P2::STBColor":"#A6D5DB",
+      "pct":"0.08",
+      "fmtPct":"0.08%"
+    },
+    {
+      "value":1206,
+      "id":"Arris::Arris STB::STB",
+      "color":"#867EEB",
+      "label":"Arris::Arris STB::STB",
+      "Arris::Arris STB::STBColor":"#867EEB",
+      "pct":"12.94",
+      "fmtPct":"12.94%"
+    },
+    {
+      "value":9,
+      "id":"Arris::Arris VMS1100::STB",
+      "color":"#C7B03A",
+      "label":"Arris::Arris VMS1100::STB",
+      "Arris::Arris VMS1100::STBColor":"#C7B03A",
+      "pct":"0.10",
+      "fmtPct":"0.10%"
+    },
+    {
+      "value":83,
+      "id":"Arris::Arris VMS4100::STB",
+      "color":"#77F38C",
+      "label":"Arris::Arris VMS4100::STB",
+      "Arris::Arris VMS4100::STBColor":"#77F38C",
+      "pct":"0.89",
+      "fmtPct":"0.89%"
+    },
+    {
+      "value":3,
+      "id":"Arris::DirecTVHR54::STB",
+      "color":"#15BB5D",
+      "label":"Arris::DirecTVHR54::STB",
+      "Arris::DirecTVHR54::STBColor":"#15BB5D",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":48,
+      "id":"Belkin::Belkin Wemo::Switch",
+      "color":"#DE8192",
+      "label":"Belkin::Belkin Wemo::Switch",
+      "Belkin::Belkin Wemo::SwitchColor":"#DE8192",
+      "pct":"0.52",
+      "fmtPct":"0.52%"
+    },
+    {
+      "value":25,
+      "id":"Bose::Bose SoundTouch::Speaker",
+      "color":"#6E1A32",
+      "label":"Bose::Bose SoundTouch::Speaker",
+      "Bose::Bose SoundTouch::SpeakerColor":"#6E1A32",
+      "pct":"0.27",
+      "fmtPct":"0.27%"
+    },
+    {
+      "value":3,
+      "id":"Bose::SoundTouch10::Speaker",
+      "color":"#C968A5",
+      "label":"Bose::SoundTouch10::Speaker",
+      "Bose::SoundTouch10::SpeakerColor":"#C968A5",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":3,
+      "id":"Bose::SoundTouch300::Speaker",
+      "color":"#AABD96",
+      "label":"Bose::SoundTouch300::Speaker",
+      "Bose::SoundTouch300::SpeakerColor":"#AABD96",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":4,
+      "id":"BroadLink::BroadLink SPmini::Smart Plug",
+      "color":"#C1AA71",
+      "label":"BroadLink::BroadLink SPmini::Smart Plug",
+      "BroadLink::BroadLink SPmini::Smart PlugColor":"#C1AA71",
+      "pct":"0.04",
+      "fmtPct":"0.04%"
+    },
+    {
+      "value":83,
+      "id":"Brother::Brother Printer::Printer",
+      "color":"#F91371",
+      "label":"Brother::Brother Printer::Printer",
+      "Brother::Brother Printer::PrinterColor":"#F91371",
+      "pct":"0.89",
+      "fmtPct":"0.89%"
+    },
+    {
+      "value":3,
+      "id":"Canon::Canon Photo Printer::Printer",
+      "color":"#5C4EFB",
+      "label":"Canon::Canon Photo Printer::Printer",
+      "Canon::Canon Photo Printer::PrinterColor":"#5C4EFB",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":5,
+      "id":"Canon::Canon Printer::Printer",
+      "color":"#0BF0C5",
+      "label":"Canon::Canon Printer::Printer",
+      "Canon::Canon Printer::PrinterColor":"#0BF0C5",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":37,
+      "id":"Chamberlain::Chamberlain Smart Hub::Smart Hub",
+      "color":"#CB5854",
+      "label":"Chamberlain::Chamberlain Smart Hub::Smart Hub",
+      "Chamberlain::Chamberlain Smart Hub::Smart HubColor":"#CB5854",
+      "pct":"0.40",
+      "fmtPct":"0.40%"
+    },
+    {
+      "value":72,
+      "id":"Cisco::Cisco STB::STB",
+      "color":"#3CC138",
+      "label":"Cisco::Cisco STB::STB",
+      "Cisco::Cisco STB::STBColor":"#3CC138",
+      "pct":"0.77",
+      "fmtPct":"0.77%"
+    },
+    {
+      "value":16,
+      "id":"Devolo::Devolo HomePlug AV::Smart Plug",
+      "color":"#C98348",
+      "label":"Devolo::Devolo HomePlug AV::Smart Plug",
+      "Devolo::Devolo HomePlug AV::Smart PlugColor":"#C98348",
+      "pct":"0.17",
+      "fmtPct":"0.17%"
+    },
+    {
+      "value":9,
+      "id":"DirecTV::DirecTVHR44::STB",
+      "color":"#ABB775",
+      "label":"DirecTV::DirecTVHR44::STB",
+      "DirecTV::DirecTVHR44::STBColor":"#ABB775",
+      "pct":"0.10",
+      "fmtPct":"0.10%"
+    },
+    {
+      "value":5,
+      "id":"Dish Network::Dish Network Joey::STB",
+      "color":"#AEA93A",
+      "label":"Dish Network::Dish Network Joey::STB",
+      "Dish Network::Dish Network Joey::STBColor":"#AEA93A",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":9,
+      "id":"Dish Network::Hopper2::DVR",
+      "color":"#0D2C16",
+      "label":"Dish Network::Hopper2::DVR",
+      "Dish Network::Hopper2::DVRColor":"#0D2C16",
+      "pct":"0.10",
+      "fmtPct":"0.10%"
+    },
+    {
+      "value":3,
+      "id":"D-Link::D-Link Camera::Camera",
+      "color":"#D5AE5B",
+      "label":"D-Link::D-Link Camera::Camera",
+      "D-Link::D-Link Camera::CameraColor":"#D5AE5B",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":3,
+      "id":"D-Link::D-Link DCS-5000L::Camera",
+      "color":"#32080E",
+      "label":"D-Link::D-Link DCS-5000L::Camera",
+      "D-Link::D-Link DCS-5000L::CameraColor":"#32080E",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":20,
+      "id":"Eero::Eero Router::Router",
+      "color":"#196492",
+      "label":"Eero::Eero Router::Router",
+      "Eero::Eero Router::RouterColor":"#196492",
+      "pct":"0.21",
+      "fmtPct":"0.21%"
+    },
+    {
+      "value":127,
+      "id":"Epson::Epson Printer::Printer",
+      "color":"#AD413C",
+      "label":"Epson::Epson Printer::Printer",
+      "Epson::Epson Printer::PrinterColor":"#AD413C",
+      "pct":"1.36",
+      "fmtPct":"1.36%"
+    },
+    {
+      "value":711,
+      "id":"Espressif::Espressif IOT::IOT",
+      "color":"#47BE75",
+      "label":"Espressif::Espressif IOT::IOT",
+      "Espressif::Espressif IOT::IOTColor":"#47BE75",
+      "pct":"7.63",
+      "fmtPct":"7.63%"
+    },
+    {
+      "value":8,
+      "id":"Fitbit::Aria2::Smart Scale",
+      "color":"#B87EC0",
+      "label":"Fitbit::Aria2::Smart Scale",
+      "Fitbit::Aria2::Smart ScaleColor":"#B87EC0",
+      "pct":"0.09",
+      "fmtPct":"0.09%"
+    },
+    {
+      "value":6,
+      "id":"Fitbit::Fitbit Ionic::Wearable",
+      "color":"#14CDA8",
+      "label":"Fitbit::Fitbit Ionic::Wearable",
+      "Fitbit::Fitbit Ionic::WearableColor":"#14CDA8",
+      "pct":"0.06",
+      "fmtPct":"0.06%"
+    },
+    {
+      "value":94,
+      "id":"Fitbit::Fitbit IOT::IOT",
+      "color":"#538D76",
+      "label":"Fitbit::Fitbit IOT::IOT",
+      "Fitbit::Fitbit IOT::IOTColor":"#538D76",
+      "pct":"1.01",
+      "fmtPct":"1.01%"
+    },
+    {
+      "value":3,
+      "id":"Hikvision::Hikvision DVR::DVR",
+      "color":"#DE9147",
+      "label":"Hikvision::Hikvision DVR::DVR",
+      "Hikvision::Hikvision DVR::DVRColor":"#DE9147",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":30,
+      "id":"Honeywell::Honeywell Router::Router",
+      "color":"#2B46FB",
+      "label":"Honeywell::Honeywell Router::Router",
+      "Honeywell::Honeywell Router::RouterColor":"#2B46FB",
+      "pct":"0.32",
+      "fmtPct":"0.32%"
+    },
+    {
+      "value":8,
+      "id":"Humax::DirecTVHR54::STB",
+      "color":"#110057",
+      "label":"Humax::DirecTVHR54::STB",
+      "Humax::DirecTVHR54::STBColor":"#110057",
+      "pct":"0.09",
+      "fmtPct":"0.09%"
+    },
+    {
+      "value":4,
+      "id":"Humax::DirecTVHS17::STB",
+      "color":"#24FE93",
+      "label":"Humax::DirecTVHS17::STB",
+      "Humax::DirecTVHS17::STBColor":"#24FE93",
+      "pct":"0.04",
+      "fmtPct":"0.04%"
+    },
+    {
+      "value":5,
+      "id":"iDevices::iDevices Switch::Switch",
+      "color":"#54FC13",
+      "label":"iDevices::iDevices Switch::Switch",
+      "iDevices::iDevices Switch::SwitchColor":"#54FC13",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":4,
+      "id":"LIFX::LIFX Light::Light",
+      "color":"#2652A5",
+      "label":"LIFX::LIFX Light::Light",
+      "LIFX::LIFX Light::LightColor":"#2652A5",
+      "pct":"0.04",
+      "fmtPct":"0.04%"
+    },
+    {
+      "value":12,
+      "id":"Logitech::Logitech Harmony Hub::Smart Hub",
+      "color":"#358994",
+      "label":"Logitech::Logitech Harmony Hub::Smart Hub",
+      "Logitech::Logitech Harmony Hub::Smart HubColor":"#358994",
+      "pct":"0.13",
+      "fmtPct":"0.13%"
+    },
+    {
+      "value":21,
+      "id":"Meross::Meross Smart Plug::Smart Plug",
+      "color":"#29A144",
+      "label":"Meross::Meross Smart Plug::Smart Plug",
+      "Meross::Meross Smart Plug::Smart PlugColor":"#29A144",
+      "pct":"0.23",
+      "fmtPct":"0.23%"
+    },
+    {
+      "value":28,
+      "id":"Microsoft::Microsoft Xbox::Gaming",
+      "color":"#8053AC",
+      "label":"Microsoft::Microsoft Xbox::Gaming",
+      "Microsoft::Microsoft Xbox::GamingColor":"#8053AC",
+      "pct":"0.30",
+      "fmtPct":"0.30%"
+    },
+    {
+      "value":5,
+      "id":"Microsoft::Xbox360::Gaming",
+      "color":"#B3C001",
+      "label":"Microsoft::Xbox360::Gaming",
+      "Microsoft::Xbox360::GamingColor":"#B3C001",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":517,
+      "id":"Microsoft::XboxOne::Gaming",
+      "color":"#8892D6",
+      "label":"Microsoft::XboxOne::Gaming",
+      "Microsoft::XboxOne::GamingColor":"#8892D6",
+      "pct":"5.55",
+      "fmtPct":"5.55%"
+    },
+    {
+      "value":93,
+      "id":"MitraStar::MitraStar BasePort::BasePort",
+      "color":"#E091F5",
+      "label":"MitraStar::MitraStar BasePort::BasePort",
+      "MitraStar::MitraStar BasePort::BasePortColor":"#E091F5",
+      "pct":"1.00",
+      "fmtPct":"1.00%"
+    },
+    {
+      "value":22,
+      "id":"Movistar::Movistar TLF2840TW::STB",
+      "color":"#2D09A6",
+      "label":"Movistar::Movistar TLF2840TW::STB",
+      "Movistar::Movistar TLF2840TW::STBColor":"#2D09A6",
+      "pct":"0.24",
+      "fmtPct":"0.24%"
+    },
+    {
+      "value":3,
+      "id":"Movistar::Movistar TLF3800TW::STB",
+      "color":"#30C972",
+      "label":"Movistar::Movistar TLF3800TW::STB",
+      "Movistar::Movistar TLF3800TW::STBColor":"#30C972",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":3,
+      "id":"Nest::Learning ThermostatGeneration 2::Thermostat",
+      "color":"#225126",
+      "label":"Nest::Learning ThermostatGeneration 2::Thermostat",
+      "Nest::Learning ThermostatGeneration 2::ThermostatColor":"#225126",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":58,
+      "id":"Nest::Learning ThermostatGeneration 3::Thermostat",
+      "color":"#596037",
+      "label":"Nest::Learning ThermostatGeneration 3::Thermostat",
+      "Nest::Learning ThermostatGeneration 3::ThermostatColor":"#596037",
+      "pct":"0.62",
+      "fmtPct":"0.62%"
+    },
+    {
+      "value":22,
+      "id":"Nest::ThermostatE::Thermostat",
+      "color":"#8E3FDC",
+      "label":"Nest::ThermostatE::Thermostat",
+      "Nest::ThermostatE::ThermostatColor":"#8E3FDC",
+      "pct":"0.24",
+      "fmtPct":"0.24%"
+    },
+    {
+      "value":7,
+      "id":"Netatmo::Weather StationHome Weather::IOT",
+      "color":"#F0DB69",
+      "label":"Netatmo::Weather StationHome Weather::IOT",
+      "Netatmo::Weather StationHome Weather::IOTColor":"#F0DB69",
+      "pct":"0.08",
+      "fmtPct":"0.08%"
+    },
+    {
+      "value":3,
+      "id":"Netgear::AC1200EX6110::Network Extender",
+      "color":"#C53338",
+      "label":"Netgear::AC1200EX6110::Network Extender",
+      "Netgear::AC1200EX6110::Network ExtenderColor":"#C53338",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":3,
+      "id":"Netgear::AC1200EX6120::Network Extender",
+      "color":"#2C6888",
+      "label":"Netgear::AC1200EX6120::Network Extender",
+      "Netgear::AC1200EX6120::Network ExtenderColor":"#2C6888",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":3,
+      "id":"Netgear::AC1200EX6150::Network Extender",
+      "color":"#48ED37",
+      "label":"Netgear::AC1200EX6150::Network Extender",
+      "Netgear::AC1200EX6150::Network ExtenderColor":"#48ED37",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":13,
+      "id":"Netgear::AC750EX3700::Network Extender",
+      "color":"#6D41FE",
+      "label":"Netgear::AC750EX3700::Network Extender",
+      "Netgear::AC750EX3700::Network ExtenderColor":"#6D41FE",
+      "pct":"0.14",
+      "fmtPct":"0.14%"
+    },
+    {
+      "value":11,
+      "id":"Netgear::Access PointWNHD3002G::Router",
+      "color":"#5E4AF8",
+      "label":"Netgear::Access PointWNHD3002G::Router",
+      "Netgear::Access PointWNHD3002G::RouterColor":"#5E4AF8",
+      "pct":"0.12",
+      "fmtPct":"0.12%"
+    },
+    {
+      "value":3,
+      "id":"Netgear::Arlo BasestationVMB3010::Smart Hub",
+      "color":"#B3FE4B",
+      "label":"Netgear::Arlo BasestationVMB3010::Smart Hub",
+      "Netgear::Arlo BasestationVMB3010::Smart HubColor":"#B3FE4B",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":8,
+      "id":"Netgear::Arlo BasestationVMB4000::Smart Hub",
+      "color":"#E0A251",
+      "label":"Netgear::Arlo BasestationVMB4000::Smart Hub",
+      "Netgear::Arlo BasestationVMB4000::Smart HubColor":"#E0A251",
+      "pct":"0.09",
+      "fmtPct":"0.09%"
+    },
+    {
+      "value":3,
+      "id":"Netgear::N150WNR1000 V3::Router",
+      "color":"#C5E9FF",
+      "label":"Netgear::N150WNR1000 V3::Router",
+      "Netgear::N150WNR1000 V3::RouterColor":"#C5E9FF",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":6,
+      "id":"Netgear::N300EX2700::Network Extender",
+      "color":"#9BB82F",
+      "label":"Netgear::N300EX2700::Network Extender",
+      "Netgear::N300EX2700::Network ExtenderColor":"#9BB82F",
+      "pct":"0.06",
+      "fmtPct":"0.06%"
+    },
+    {
+      "value":3,
+      "id":"Netgear::N600WNDR3400 V2::Router",
+      "color":"#396F82",
+      "label":"Netgear::N600WNDR3400 V2::Router",
+      "Netgear::N600WNDR3400 V2::RouterColor":"#396F82",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":8,
+      "id":"Netgear::Netgear WN3000RP v3::Network Extender",
+      "color":"#8D5BFC",
+      "label":"Netgear::Netgear WN3000RP v3::Network Extender",
+      "Netgear::Netgear WN3000RP v3::Network ExtenderColor":"#8D5BFC",
+      "pct":"0.09",
+      "fmtPct":"0.09%"
+    },
+    {
+      "value":5,
+      "id":"Netgear::Netgear WNHD3002G::Multimedia Extender",
+      "color":"#0BADBB",
+      "label":"Netgear::Netgear WNHD3002G::Multimedia Extender",
+      "Netgear::Netgear WNHD3002G::Multimedia ExtenderColor":"#0BADBB",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":3,
+      "id":"Netgear::NighthawkR6700 V3::Router",
+      "color":"#BE195C",
+      "label":"Netgear::NighthawkR6700 V3::Router",
+      "Netgear::NighthawkR6700 V3::RouterColor":"#BE195C",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":4,
+      "id":"Netgear::NighthawkR7000::Router",
+      "color":"#6453EF",
+      "label":"Netgear::NighthawkR7000::Router",
+      "Netgear::NighthawkR7000::RouterColor":"#6453EF",
+      "pct":"0.04",
+      "fmtPct":"0.04%"
+    },
+    {
+      "value":7,
+      "id":"Netgear::OrbiRBR20::Router",
+      "color":"#264C14",
+      "label":"Netgear::OrbiRBR20::Router",
+      "Netgear::OrbiRBR20::RouterColor":"#264C14",
+      "pct":"0.08",
+      "fmtPct":"0.08%"
+    },
+    {
+      "value":4,
+      "id":"Netgear::OrbiRBR40::Router",
+      "color":"#72E10F",
+      "label":"Netgear::OrbiRBR40::Router",
+      "Netgear::OrbiRBR40::RouterColor":"#72E10F",
+      "pct":"0.04",
+      "fmtPct":"0.04%"
+    },
+    {
+      "value":14,
+      "id":"Netgear::OrbiRBR50::Router",
+      "color":"#E40FB7",
+      "label":"Netgear::OrbiRBR50::Router",
+      "Netgear::OrbiRBR50::RouterColor":"#E40FB7",
+      "pct":"0.15",
+      "fmtPct":"0.15%"
+    },
+    {
+      "value":9,
+      "id":"Nintendo::Nintendo DS::Gaming",
+      "color":"#719479",
+      "label":"Nintendo::Nintendo DS::Gaming",
+      "Nintendo::Nintendo DS::GamingColor":"#719479",
+      "pct":"0.10",
+      "fmtPct":"0.10%"
+    },
+    {
+      "value":1262,
+      "id":"Nintendo::Nintendo Gaming Device::Gaming",
+      "color":"#F21BCB",
+      "label":"Nintendo::Nintendo Gaming Device::Gaming",
+      "Nintendo::Nintendo Gaming Device::GamingColor":"#F21BCB",
+      "pct":"13.54",
+      "fmtPct":"13.54%"
+    },
+    {
+      "value":128,
+      "id":"Nintendo::Nintendo Gaming::Gaming",
+      "color":"#4B6C26",
+      "label":"Nintendo::Nintendo Gaming::Gaming",
+      "Nintendo::Nintendo Gaming::GamingColor":"#4B6C26",
+      "pct":"1.37",
+      "fmtPct":"1.37%"
+    },
+    {
+      "value":22,
+      "id":"Nintendo::Nintendo Wii::Gaming",
+      "color":"#ED8B09",
+      "label":"Nintendo::Nintendo Wii::Gaming",
+      "Nintendo::Nintendo Wii::GamingColor":"#ED8B09",
+      "pct":"0.24",
+      "fmtPct":"0.24%"
+    },
+    {
+      "value":4,
+      "id":"Onkyo::Onkyo Streaming::Streaming",
+      "color":"#92C58F",
+      "label":"Onkyo::Onkyo Streaming::Streaming",
+      "Onkyo::Onkyo Streaming::StreamingColor":"#92C58F",
+      "pct":"0.04",
+      "fmtPct":"0.04%"
+    },
+    {
+      "value":7,
+      "id":"Philips::hueBSB002::Smart Hub",
+      "color":"#70A4FB",
+      "label":"Philips::hueBSB002::Smart Hub",
+      "Philips::hueBSB002::Smart HubColor":"#70A4FB",
+      "pct":"0.08",
+      "fmtPct":"0.08%"
+    },
+    {
+      "value":57,
+      "id":"Philips::Philips hue::Smart Hub",
+      "color":"#4A9E88",
+      "label":"Philips::Philips hue::Smart Hub",
+      "Philips::Philips hue::Smart HubColor":"#4A9E88",
+      "pct":"0.61",
+      "fmtPct":"0.61%"
+    },
+    {
+      "value":12,
+      "id":"Raspberry Pi::Raspberry Pi Development Board::Development Board",
+      "color":"#BC1AED",
+      "label":"Raspberry Pi::Raspberry Pi Development Board::Development Board",
+      "Raspberry Pi::Raspberry Pi Development Board::Development BoardColor":"#BC1AED",
+      "pct":"0.13",
+      "fmtPct":"0.13%"
+    },
+    {
+      "value":15,
+      "id":"Ring::ExtenderPro::Router",
+      "color":"#F2B3EB",
+      "label":"Ring::ExtenderPro::Router",
+      "Ring::ExtenderPro::RouterColor":"#F2B3EB",
+      "pct":"0.16",
+      "fmtPct":"0.16%"
+    },
+    {
+      "value":36,
+      "id":"Ring::Ring Camera::Camera",
+      "color":"#603D69",
+      "label":"Ring::Ring Camera::Camera",
+      "Ring::Ring Camera::CameraColor":"#603D69",
+      "pct":"0.39",
+      "fmtPct":"0.39%"
+    },
+    {
+      "value":55,
+      "id":"Ring::Ring Doorbell::Doorbell",
+      "color":"#310BE4",
+      "label":"Ring::Ring Doorbell::Doorbell",
+      "Ring::Ring Doorbell::DoorbellColor":"#310BE4",
+      "pct":"0.59",
+      "fmtPct":"0.59%"
+    },
+    {
+      "value":10,
+      "id":"Ring::Ring Pro::Doorbell",
+      "color":"#80C9B1",
+      "label":"Ring::Ring Pro::Doorbell",
+      "Ring::Ring Pro::DoorbellColor":"#80C9B1",
+      "pct":"0.11",
+      "fmtPct":"0.11%"
+    },
+    {
+      "value":5,
+      "id":"Roku::Roku 3::Streaming",
+      "color":"#95A5EB",
+      "label":"Roku::Roku 3::Streaming",
+      "Roku::Roku 3::StreamingColor":"#95A5EB",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":5,
+      "id":"Roku::Roku Express::Streaming",
+      "color":"#C41210",
+      "label":"Roku::Roku Express::Streaming",
+      "Roku::Roku Express::StreamingColor":"#C41210",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":5,
+      "id":"Roku::Roku Stick::Streaming",
+      "color":"#BFD8C8",
+      "label":"Roku::Roku Stick::Streaming",
+      "Roku::Roku Stick::StreamingColor":"#BFD8C8",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":292,
+      "id":"Roku::Roku Streaming::Streaming",
+      "color":"#0AC237",
+      "label":"Roku::Roku Streaming::Streaming",
+      "Roku::Roku Streaming::StreamingColor":"#0AC237",
+      "pct":"3.13",
+      "fmtPct":"3.13%"
+    },
+    {
+      "value":73,
+      "id":"Roomba::Roomba Vacuum Robot::Vacuum Cleaner",
+      "color":"#6F3C97",
+      "label":"Roomba::Roomba Vacuum Robot::Vacuum Cleaner",
+      "Roomba::Roomba Vacuum Robot::Vacuum CleanerColor":"#6F3C97",
+      "pct":"0.78",
+      "fmtPct":"0.78%"
+    },
+    {
+      "value":3,
+      "id":"Samsung::DirecTVHR54::STB",
+      "color":"#9409DA",
+      "label":"Samsung::DirecTVHR54::STB",
+      "Samsung::DirecTVHR54::STBColor":"#9409DA",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":6,
+      "id":"Samsung::Samsung Printer::Printer",
+      "color":"#FF066E",
+      "label":"Samsung::Samsung Printer::Printer",
+      "Samsung::Samsung Printer::PrinterColor":"#FF066E",
+      "pct":"0.06",
+      "fmtPct":"0.06%"
+    },
+    {
+      "value":83,
+      "id":"Samsung::Samsung Wearable::Wearable",
+      "color":"#DE588D",
+      "label":"Samsung::Samsung Wearable::Wearable",
+      "Samsung::Samsung Wearable::WearableColor":"#DE588D",
+      "pct":"0.89",
+      "fmtPct":"0.89%"
+    },
+    {
+      "value":5,
+      "id":"Sonos::Sonos PLAY:1::Speaker",
+      "color":"#D30F64",
+      "label":"Sonos::Sonos PLAY:1::Speaker",
+      "Sonos::Sonos PLAY:1::SpeakerColor":"#D30F64",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":4,
+      "id":"Sonos::Sonos ZoneBridge::Streaming",
+      "color":"#37DB86",
+      "label":"Sonos::Sonos ZoneBridge::Streaming",
+      "Sonos::Sonos ZoneBridge::StreamingColor":"#37DB86",
+      "pct":"0.04",
+      "fmtPct":"0.04%"
+    },
+    {
+      "value":67,
+      "id":"Sonos::Sonos ZonePlayer::Speaker",
+      "color":"#4D16D7",
+      "label":"Sonos::Sonos ZonePlayer::Speaker",
+      "Sonos::Sonos ZonePlayer::SpeakerColor":"#4D16D7",
+      "pct":"0.72",
+      "fmtPct":"0.72%"
+    },
+    {
+      "value":121,
+      "id":"Sony::Sony PlayStation 4::Gaming",
+      "color":"#526937",
+      "label":"Sony::Sony PlayStation 4::Gaming",
+      "Sony::Sony PlayStation 4::GamingColor":"#526937",
+      "pct":"1.30",
+      "fmtPct":"1.30%"
+    },
+    {
+      "value":50,
+      "id":"Sony::Sony PlayStation::Gaming",
+      "color":"#9D44CC",
+      "label":"Sony::Sony PlayStation::Gaming",
+      "Sony::Sony PlayStation::GamingColor":"#9D44CC",
+      "pct":"0.54",
+      "fmtPct":"0.54%"
+    },
+    {
+      "value":3,
+      "id":"Tenda Technology::NovaMW6::Router",
+      "color":"#1F9571",
+      "label":"Tenda Technology::NovaMW6::Router",
+      "Tenda Technology::NovaMW6::RouterColor":"#1F9571",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":31,
+      "id":"Thermomix::Thermomix IOT::IOT",
+      "color":"#F00EB7",
+      "label":"Thermomix::Thermomix IOT::IOT",
+      "Thermomix::Thermomix IOT::IOTColor":"#F00EB7",
+      "pct":"0.33",
+      "fmtPct":"0.33%"
+    },
+    {
+      "value":10,
+      "id":"TiVo::TiVo DVR::DVR",
+      "color":"#D442FA",
+      "label":"TiVo::TiVo DVR::DVR",
+      "TiVo::TiVo DVR::DVRColor":"#D442FA",
+      "pct":"0.11",
+      "fmtPct":"0.11%"
+    },
+    {
+      "value":12,
+      "id":"TP-LINK::AC1750RE450::Network Extender",
+      "color":"#860919",
+      "label":"TP-LINK::AC1750RE450::Network Extender",
+      "TP-LINK::AC1750RE450::Network ExtenderColor":"#860919",
+      "pct":"0.13",
+      "fmtPct":"0.13%"
+    },
+    {
+      "value":3,
+      "id":"TP-LINK::AC2600RE650::Network Extender",
+      "color":"#47B7AC",
+      "label":"TP-LINK::AC2600RE650::Network Extender",
+      "TP-LINK::AC2600RE650::Network ExtenderColor":"#47B7AC",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":41,
+      "id":"TP-LINK::AC750RE200::Network Extender",
+      "color":"#8B4F03",
+      "label":"TP-LINK::AC750RE200::Network Extender",
+      "TP-LINK::AC750RE200::Network ExtenderColor":"#8B4F03",
+      "pct":"0.44",
+      "fmtPct":"0.44%"
+    },
+    {
+      "value":4,
+      "id":"TP-LINK::ArcherC7::Router",
+      "color":"#71FB39",
+      "label":"TP-LINK::ArcherC7::Router",
+      "TP-LINK::ArcherC7::RouterColor":"#71FB39",
+      "pct":"0.04",
+      "fmtPct":"0.04%"
+    },
+    {
+      "value":4,
+      "id":"TP-LINK::DecoM5::Router",
+      "color":"#1F7223",
+      "label":"TP-LINK::DecoM5::Router",
+      "TP-LINK::DecoM5::RouterColor":"#1F7223",
+      "pct":"0.04",
+      "fmtPct":"0.04%"
+    },
+    {
+      "value":32,
+      "id":"TP-LINK::KasaHS100::Smart Plug",
+      "color":"#DFB758",
+      "label":"TP-LINK::KasaHS100::Smart Plug",
+      "TP-LINK::KasaHS100::Smart PlugColor":"#DFB758",
+      "pct":"0.34",
+      "fmtPct":"0.34%"
+    },
+    {
+      "value":11,
+      "id":"TP-LINK::KasaHS103::Smart Plug",
+      "color":"#3B0A2F",
+      "label":"TP-LINK::KasaHS103::Smart Plug",
+      "TP-LINK::KasaHS103::Smart PlugColor":"#3B0A2F",
+      "pct":"0.12",
+      "fmtPct":"0.12%"
+    },
+    {
+      "value":24,
+      "id":"TP-LINK::KasaHS105::Smart Plug",
+      "color":"#1307DB",
+      "label":"TP-LINK::KasaHS105::Smart Plug",
+      "TP-LINK::KasaHS105::Smart PlugColor":"#1307DB",
+      "pct":"0.26",
+      "fmtPct":"0.26%"
+    },
+    {
+      "value":9,
+      "id":"TP-LINK::KasaHS110::Smart Plug",
+      "color":"#B24A9D",
+      "label":"TP-LINK::KasaHS110::Smart Plug",
+      "TP-LINK::KasaHS110::Smart PlugColor":"#B24A9D",
+      "pct":"0.10",
+      "fmtPct":"0.10%"
+    },
+    {
+      "value":17,
+      "id":"TP-LINK::KasaHS200::Switch",
+      "color":"#140E3F",
+      "label":"TP-LINK::KasaHS200::Switch",
+      "TP-LINK::KasaHS200::SwitchColor":"#140E3F",
+      "pct":"0.18",
+      "fmtPct":"0.18%"
+    },
+    {
+      "value":18,
+      "id":"TP-LINK::PowerlineTL-WPA4220::Network Extender",
+      "color":"#419F75",
+      "label":"TP-LINK::PowerlineTL-WPA4220::Network Extender",
+      "TP-LINK::PowerlineTL-WPA4220::Network ExtenderColor":"#419F75",
+      "pct":"0.19",
+      "fmtPct":"0.19%"
+    },
+    {
+      "value":5,
+      "id":"TP-LINK::PowerlineTL-WPA8630P::Network Extender",
+      "color":"#339A76",
+      "label":"TP-LINK::PowerlineTL-WPA8630P::Network Extender",
+      "TP-LINK::PowerlineTL-WPA8630P::Network ExtenderColor":"#339A76",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":10,
+      "id":"TP-LINK::TP-LINK RE220::Network Extender",
+      "color":"#DC71A2",
+      "label":"TP-LINK::TP-LINK RE220::Network Extender",
+      "TP-LINK::TP-LINK RE220::Network ExtenderColor":"#DC71A2",
+      "pct":"0.11",
+      "fmtPct":"0.11%"
+    },
+    {
+      "value":24,
+      "id":"TP-LINK::TP-LINK TL-WA850RE::Router",
+      "color":"#650B40",
+      "label":"TP-LINK::TP-LINK TL-WA850RE::Router",
+      "TP-LINK::TP-LINK TL-WA850RE::RouterColor":"#650B40",
+      "pct":"0.26",
+      "fmtPct":"0.26%"
+    },
+    {
+      "value":9,
+      "id":"TP-LINK::TP-LINK TL-WA854RE::Router",
+      "color":"#DD4814",
+      "label":"TP-LINK::TP-LINK TL-WA854RE::Router",
+      "TP-LINK::TP-LINK TL-WA854RE::RouterColor":"#DD4814",
+      "pct":"0.10",
+      "fmtPct":"0.10%"
+    },
+    {
+      "value":5,
+      "id":"TP-LINK::TP-LINK TL-WA855RE::Router",
+      "color":"#DFF452",
+      "label":"TP-LINK::TP-LINK TL-WA855RE::Router",
+      "TP-LINK::TP-LINK TL-WA855RE::RouterColor":"#DFF452",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":7,
+      "id":"TP-LINK::TP-LINK TL-WA860RE::Router",
+      "color":"#D028BB",
+      "label":"TP-LINK::TP-LINK TL-WA860RE::Router",
+      "TP-LINK::TP-LINK TL-WA860RE::RouterColor":"#D028BB",
+      "pct":"0.08",
+      "fmtPct":"0.08%"
+    },
+    {
+      "value":3,
+      "id":"TP-LINK::TP-LINK TL-WR1043::Router",
+      "color":"#52F65A",
+      "label":"TP-LINK::TP-LINK TL-WR1043::Router",
+      "TP-LINK::TP-LINK TL-WR1043::RouterColor":"#52F65A",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":3,
+      "id":"TP-LINK::TP-LINK TL-WR840N::Router",
+      "color":"#E33EFA",
+      "label":"TP-LINK::TP-LINK TL-WR840N::Router",
+      "TP-LINK::TP-LINK TL-WR840N::RouterColor":"#E33EFA",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":4,
+      "id":"TP-LINK::TP-LINK TL-WR841N::Router",
+      "color":"#A172B1",
+      "label":"TP-LINK::TP-LINK TL-WR841N::Router",
+      "TP-LINK::TP-LINK TL-WR841N::RouterColor":"#A172B1",
+      "pct":"0.04",
+      "fmtPct":"0.04%"
+    },
+    {
+      "value":4,
+      "id":"TP-LINK::TP-LINK TL-WR940N::Router",
+      "color":"#7A9C5F",
+      "label":"TP-LINK::TP-LINK TL-WR940N::Router",
+      "TP-LINK::TP-LINK TL-WR940N::RouterColor":"#7A9C5F",
+      "pct":"0.04",
+      "fmtPct":"0.04%"
+    },
+    {
+      "value":5,
+      "id":"Trane::Connected ControlsXL824::Thermostat",
+      "color":"#A35960",
+      "label":"Trane::Connected ControlsXL824::Thermostat",
+      "Trane::Connected ControlsXL824::ThermostatColor":"#A35960",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":4,
+      "id":"unknown::DVR::DVR",
+      "color":"#CB93CE",
+      "label":"unknown::DVR::DVR",
+      "unknown::DVR::DVRColor":"#CB93CE",
+      "pct":"0.04",
+      "fmtPct":"0.04%"
+    },
+    {
+      "value":5,
+      "id":"unknown::Gaming::Gaming",
+      "color":"#050A2F",
+      "label":"unknown::Gaming::Gaming",
+      "unknown::Gaming::GamingColor":"#050A2F",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":442,
+      "id":"unknown::HP Printer::Printer",
+      "color":"#D10442",
+      "label":"unknown::HP Printer::Printer",
+      "unknown::HP Printer::PrinterColor":"#D10442",
+      "pct":"4.74",
+      "fmtPct":"4.74%"
+    },
+    {
+      "value":215,
+      "id":"unknown::IOT Device::IOT",
+      "color":"#7A1705",
+      "label":"unknown::IOT Device::IOT",
+      "unknown::IOT Device::IOTColor":"#7A1705",
+      "pct":"2.31",
+      "fmtPct":"2.31%"
+    },
+    {
+      "value":5,
+      "id":"unknown::Printer::Printer",
+      "color":"#E5B7DF",
+      "label":"unknown::Printer::Printer",
+      "unknown::Printer::PrinterColor":"#E5B7DF",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":5,
+      "id":"unknown::Router::Router",
+      "color":"#BCAB47",
+      "label":"unknown::Router::Router",
+      "unknown::Router::RouterColor":"#BCAB47",
+      "pct":"0.05",
+      "fmtPct":"0.05%"
+    },
+    {
+      "value":8,
+      "id":"unknown::Speaker::Speaker",
+      "color":"#023890",
+      "label":"unknown::Speaker::Speaker",
+      "unknown::Speaker::SpeakerColor":"#023890",
+      "pct":"0.09",
+      "fmtPct":"0.09%"
+    },
+    {
+      "value":114,
+      "id":"unknown::STB::STB",
+      "color":"#BE0E8C",
+      "label":"unknown::STB::STB",
+      "unknown::STB::STBColor":"#BE0E8C",
+      "pct":"1.22",
+      "fmtPct":"1.22%"
+    },
+    {
+      "value":10,
+      "id":"unknown::Storage::Storage",
+      "color":"#DC6DF7",
+      "label":"unknown::Storage::Storage",
+      "unknown::Storage::StorageColor":"#DC6DF7",
+      "pct":"0.11",
+      "fmtPct":"0.11%"
+    },
+    {
+      "value":4,
+      "id":"unknown::YI Ants::Camera",
+      "color":"#8ADCAA",
+      "label":"unknown::YI Ants::Camera",
+      "unknown::YI Ants::CameraColor":"#8ADCAA",
+      "pct":"0.04",
+      "fmtPct":"0.04%"
+    },
+    {
+      "value":4,
+      "id":"Valve Corporation::SteamLink::Gaming",
+      "color":"#ED21BB",
+      "label":"Valve Corporation::SteamLink::Gaming",
+      "Valve Corporation::SteamLink::GamingColor":"#ED21BB",
+      "pct":"0.04",
+      "fmtPct":"0.04%"
+    },
+    {
+      "value":10,
+      "id":"Vestel::Vestel STB::STB",
+      "color":"#314DFE",
+      "label":"Vestel::Vestel STB::STB",
+      "Vestel::Vestel STB::STBColor":"#314DFE",
+      "pct":"0.11",
+      "fmtPct":"0.11%"
+    },
+    {
+      "value":8,
+      "id":"Vivint::Vivint Sky Controller::Security Controller",
+      "color":"#A036A6",
+      "label":"Vivint::Vivint Sky Controller::Security Controller",
+      "Vivint::Vivint Sky Controller::Security ControllerColor":"#A036A6",
+      "pct":"0.09",
+      "fmtPct":"0.09%"
+    },
+    {
+      "value":7,
+      "id":"Vizio::VizioCastAudio::Speaker",
+      "color":"#008B00",
+      "label":"Vizio::VizioCastAudio::Speaker",
+      "Vizio::VizioCastAudio::SpeakerColor":"#008B00",
+      "pct":"0.08",
+      "fmtPct":"0.08%"
+    },
+    {
+      "value":3,
+      "id":"Western Digital::My BookLIVE::Storage",
+      "color":"#C9200B",
+      "label":"Western Digital::My BookLIVE::Storage",
+      "Western Digital::My BookLIVE::StorageColor":"#C9200B",
+      "pct":"0.03",
+      "fmtPct":"0.03%"
+    },
+    {
+      "value":22,
+      "id":"Western Digital::Western Digital My Cloud::Storage",
+      "color":"#423498",
+      "label":"Western Digital::Western Digital My Cloud::Storage",
+      "Western Digital::Western Digital My Cloud::StorageColor":"#423498",
+      "pct":"0.24",
+      "fmtPct":"0.24%"
+    },
+    {
+      "value":8,
+      "id":"Xiaomi::Mi Box3::Streaming",
+      "color":"#3ADD61",
+      "label":"Xiaomi::Mi Box3::Streaming",
+      "Xiaomi::Mi Box3::StreamingColor":"#3ADD61",
+      "pct":"0.09",
+      "fmtPct":"0.09%"
+    },
+    {
+      "value":6,
+      "id":"Xiaomi::MiBOX4::Streaming",
+      "color":"#27DE26",
+      "label":"Xiaomi::MiBOX4::Streaming",
+      "Xiaomi::MiBOX4::StreamingColor":"#27DE26",
+      "pct":"0.06",
+      "fmtPct":"0.06%"
+    },
+    {
+      "value":18,
+      "id":"Xiaomi::MiRobot Vacuum::Vacuum Cleaner",
+      "color":"#17EBC7",
+      "label":"Xiaomi::MiRobot Vacuum::Vacuum Cleaner",
+      "Xiaomi::MiRobot Vacuum::Vacuum CleanerColor":"#17EBC7",
+      "pct":"0.19",
+      "fmtPct":"0.19%"
+    },
+    {
+      "value":27,
+      "id":"Xiaomi::YeelightLED Bulb::Light",
+      "color":"#F323DD",
+      "label":"Xiaomi::YeelightLED Bulb::Light",
+      "Xiaomi::YeelightLED Bulb::LightColor":"#F323DD",
+      "pct":"0.29",
+      "fmtPct":"0.29%"
+    },
+    {
+      "value":4,
+      "id":"Xiaomi::YeelightLight Strip::Light",
+      "color":"#63ABB6",
+      "label":"Xiaomi::YeelightLight Strip::Light",
+      "Xiaomi::YeelightLight Strip::LightColor":"#63ABB6",
+      "pct":"0.04",
+      "fmtPct":"0.04%"
+    },
+    {
+      "value":153,
+      "id":"Zyxel::Zyxel STB::STB",
+      "color":"#A90211",
+      "label":"Zyxel::Zyxel STB::STB",
+      "Zyxel::Zyxel STB::STBColor":"#A90211",
+      "pct":"1.64",
+      "fmtPct":"1.64%"
+    }
+  ],
+  "total":"9319",
+  "colors":[
+    "#F1CE8D",
+    "#71B218",
+    "#D28DDE",
+    "#2A3083",
+    "#1A3701",
+    "#685D24",
+    "#410BAA",
+    "#44572F",
+    "#9534F2",
+    "#6D025B",
+    "#6C2905",
+    "#A6D5DB",
+    "#867EEB",
+    "#C7B03A",
+    "#77F38C",
+    "#15BB5D",
+    "#DE8192",
+    "#6E1A32",
+    "#C968A5",
+    "#AABD96",
+    "#C1AA71",
+    "#F91371",
+    "#5C4EFB",
+    "#0BF0C5",
+    "#CB5854",
+    "#3CC138",
+    "#C98348",
+    "#ABB775",
+    "#AEA93A",
+    "#0D2C16",
+    "#D5AE5B",
+    "#32080E",
+    "#196492",
+    "#AD413C",
+    "#47BE75",
+    "#B87EC0",
+    "#14CDA8",
+    "#538D76",
+    "#DE9147",
+    "#2B46FB",
+    "#110057",
+    "#24FE93",
+    "#54FC13",
+    "#2652A5",
+    "#358994",
+    "#29A144",
+    "#8053AC",
+    "#B3C001",
+    "#8892D6",
+    "#E091F5",
+    "#2D09A6",
+    "#30C972",
+    "#225126",
+    "#596037",
+    "#8E3FDC",
+    "#F0DB69",
+    "#C53338",
+    "#2C6888",
+    "#48ED37",
+    "#6D41FE",
+    "#5E4AF8",
+    "#B3FE4B",
+    "#E0A251",
+    "#C5E9FF",
+    "#9BB82F",
+    "#396F82",
+    "#8D5BFC",
+    "#0BADBB",
+    "#BE195C",
+    "#6453EF",
+    "#264C14",
+    "#72E10F",
+    "#E40FB7",
+    "#719479",
+    "#F21BCB",
+    "#4B6C26",
+    "#ED8B09",
+    "#92C58F",
+    "#70A4FB",
+    "#4A9E88",
+    "#BC1AED",
+    "#F2B3EB",
+    "#603D69",
+    "#310BE4",
+    "#80C9B1",
+    "#95A5EB",
+    "#C41210",
+    "#BFD8C8",
+    "#0AC237",
+    "#6F3C97",
+    "#9409DA",
+    "#FF066E",
+    "#DE588D",
+    "#D30F64",
+    "#37DB86",
+    "#4D16D7",
+    "#526937",
+    "#9D44CC",
+    "#1F9571",
+    "#F00EB7",
+    "#D442FA",
+    "#860919",
+    "#47B7AC",
+    "#8B4F03",
+    "#71FB39",
+    "#1F7223",
+    "#DFB758",
+    "#3B0A2F",
+    "#1307DB",
+    "#B24A9D",
+    "#140E3F",
+    "#419F75",
+    "#339A76",
+    "#DC71A2",
+    "#650B40",
+    "#DD4814",
+    "#DFF452",
+    "#D028BB",
+    "#52F65A",
+    "#E33EFA",
+    "#A172B1",
+    "#7A9C5F",
+    "#A35960",
+    "#CB93CE",
+    "#050A2F",
+    "#D10442",
+    "#7A1705",
+    "#E5B7DF",
+    "#BCAB47",
+    "#023890",
+    "#BE0E8C",
+    "#DC6DF7",
+    "#8ADCAA",
+    "#ED21BB",
+    "#314DFE",
+    "#A036A6",
+    "#008B00",
+    "#C9200B",
+    "#423498",
+    "#3ADD61",
+    "#27DE26",
+    "#17EBC7",
+    "#F323DD",
+    "#63ABB6",
+    "#A90211"
+  ]
+}
