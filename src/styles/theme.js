@@ -56,9 +56,14 @@ export const theme = createMuiTheme({
 		// error: will use the default color
 	},
 	overrides: {
+		MuiAvatar: {
+			root: {
+				marginRight: "8px"
+			}
+		},
 		MuiFormControlLabel: {
 			label: {
-				fontSize: '0.875rem',
+				fontSize: "0.875rem",
 			}
 		},
 		MuiButton: {

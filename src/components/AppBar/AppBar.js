@@ -3,24 +3,29 @@ import {connect, useDispatch, useSelector} from "react-redux";
 
 import clsx from "clsx";
 
-import AppBar from "@material-ui/core/AppBar";
+import {
+	AppBar,
+	Toolbar,
+	Typography,
+	Button,
+	Menu,
+	MenuItem,
+	IconButton,
+	Avatar
+} from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import { makeStyles } from "@material-ui/core";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
-import Menu from "@material-ui/core/Menu";
-import MenuItem from "@material-ui/core/MenuItem";
 import PopupState, { bindTrigger, bindMenu } from "material-ui-popup-state";
 
 import { logoutUser } from "../../actions/user";
-import IconButton from "@material-ui/core/IconButton";
+
 import { META } from "../../constants/index";
 import {theme} from "../../styles/theme";
 
 import { getCurrentUsername } from "../../selectors";
 
 import KeyboardArrowDownRoundedIcon from "@material-ui/icons/KeyboardArrowDownRounded";
+import loggedInUserImage from '../../images/wileecoyote.jpeg';
 
 const useStyles = makeStyles(theme => ({
 	root: {
@@ -47,13 +52,48 @@ const useStyles = makeStyles(theme => ({
 	hide: {
 		display: "none",
 	},
+	companyHeaderAvatar: {
+		width: '120px',
+		height: '120px',
+		borderRadius: '120',
+		backgroundClip: 'padding-box',
+		margin: '7px 0 0 5px',
+		float: 'left',
+		backgroundSize: 'cover',
+		backgroundPosition: 'center center'
+	},
+	companyAvatar: {
+		width: theme.spacing(7),
+		height: theme.spacing(7),
+		marginRight: '5px'
+	},
 }));
+
+{/*<style>*/}
+{/*	.company-header-avatar{*/}
+{/*	width: 120px;*/}
+{/*	height: 120px;*/}
+{/*	-webkit-border-radius: 120;*/}
+{/*	-webkit-background-clip: padding-box;*/}
+{/*	-moz-border-radius: 120;*/}
+{/*	-moz-background-clip: padding;*/}
+{/*	border-radius: 120px;*/}
+{/*	background-clip: padding-box;*/}
+{/*	margin: 7px 0 0 5px;*/}
+{/*	float: left;*/}
+{/*	background-size: cover;*/}
+{/*	background-position: center center;*/}
+{/*}*/}
+{/*	*/}
+{/*</style>*/}
 
 export default function ChangelogAppBar() {
 	const classes = useStyles(theme);
 	const open = useSelector(state => state.navigation.sidebarOpened);
 	const dispatch = useDispatch();
 	const currentUserName = getCurrentUsername();
+
+	// const avatar = <Avatar image = {<Image source = {require('../../images/wileecoyote.jpeg')} />} style={styles.avatarHeader} size={110} borderRadius={55} />
 
 	return (
 		<AppBar position="fixed" className={clsx(classes.appBar, { [classes.appBarShift]: open, })}>
@@ -76,6 +116,7 @@ export default function ChangelogAppBar() {
 					{popupState => (
 						<React.Fragment>
 							<Button  {...bindTrigger(popupState)} variant="contained" color="primary" disableElevation>
+								<Avatar alt="Remy Sharp" src={loggedInUserImage} className={classes.large} />
 								<span>
 									{currentUserName}
 								</span>
