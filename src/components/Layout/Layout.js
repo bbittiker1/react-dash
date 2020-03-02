@@ -2,15 +2,13 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import { connect } from "react-redux";
 
-import { makeStyles  } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
 import ChangelogAppBar from "../AppBar/AppBar";
 import ChangelogSideBar from "../Sidebar/Sidebar";
 import Dashboard from "../../pages/dashboard/Dashboard";
-import Privacy from "../../pages/privacy/Privacy";
 import Anomalies from "../../pages/anomalies/Anomalies";
-
 
 const useStyles = makeStyles(theme => ({
 	root: {
@@ -45,9 +43,7 @@ export default function Layout() {
 
 				<Switch>
 					<Route path="/app/main" exact component={Dashboard} />
-					<Route path="/app/privacy" exact component={Privacy} />
 					<Route path="/app/anomalies/changelog" exact component={Anomalies} />
-					<Route path="/app/anomalies/convicted" exact component={Anomalies} />
 				</Switch>
 			</main>
 		</div>
