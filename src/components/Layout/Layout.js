@@ -8,7 +8,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import ChangelogAppBar from "../AppBar/AppBar";
 import ChangelogSideBar from "../Sidebar/Sidebar";
 import Dashboard from "../../pages/dashboard/Dashboard";
-import Anomalies from "../../pages/anomalies/Anomalies";
+import Widgets from "../../pages/widgets/Widgets";
 
 const useStyles = makeStyles(theme => ({
 	root: {
@@ -43,7 +43,7 @@ export default function Layout() {
 
 				<Switch>
 					<Route path="/app/main" exact component={Dashboard} />
-					<Route path="/app/anomalies/changelog" exact component={Anomalies} />
+					<Route path="/app/widgets/changelog" exact component={Widgets} />
 				</Switch>
 			</main>
 		</div>

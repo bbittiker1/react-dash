@@ -1,12 +1,12 @@
 import { combineReducers } from "redux";
 import auth from "./auth";
 import navigation from "./navigation";
-import anomalies from "./anomalies";
+import widgets from "./widgets";
 
 export default combineReducers({
 	auth,
 	navigation,
-	anomalies
+	widgets
 });
 
 export const getAuth = (state) => state.auth;

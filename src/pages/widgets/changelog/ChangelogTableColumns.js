@@ -5,12 +5,7 @@ import IconLoader from "../../../components/IconLoader/IconLoader";
 
 import { theme } from "../../../styles/theme";
 
-import {
-	handleAddBaseline,
-	handleMarkAnomaly,
-	handlePick,
-	handleUnpick
-} from "../Anomalies";
+
 
 function ChangelogTableColumns({ props, currentUserId }) {
 	const timeFormatter = (ts) => {
@@ -97,7 +92,7 @@ function ChangelogTableColumns({ props, currentUserId }) {
                 		title="Unpick"
                 		iconClass="fa fa-minus"
                 		isFetching={ props.isFetchingUnpick }
-                		onClick={ () => handleUnpick(rowData, props, currentUserId, rowData.id) }
+                		onClick={ () => {} }
                 		showConfirm={false}
                 	/>
                 </div>
@@ -110,7 +105,7 @@ function ChangelogTableColumns({ props, currentUserId }) {
                 		title="Pick"
                 		iconClass="fa fa-plus"
                 		isFetching={ props.isFetchingPick }
-                		onClick={ () => handlePick(rowData, props, currentUserId, rowData.id) }
+                		onClick={ () => {} }
                 		showConfirm={false}
                 	/>
                 </div>
@@ -122,7 +117,7 @@ function ChangelogTableColumns({ props, currentUserId }) {
                 		title="Add to Baseline"
                 		iconClass="fa fa-check"
                 		isFetching={props.isFetchingBaseline}
-                		onClick={() => handleAddBaseline(rowData, props, currentUserId, rowData.id)}
+                		onClick={() => {}}
                 		showConfirm={true}
                 		confirmProps={{
                 			confirmText: "Are you sure you want to add to Baseline?",
@@ -140,7 +135,7 @@ function ChangelogTableColumns({ props, currentUserId }) {
                 		title="Mark as Widget"
                 		iconClass="fa fa-times"
                 		isFetching={props.isFetchingMarkAnomaly}
-                		onClick={() => handleMarkAnomaly(rowData, props, rowData.id)}
+                		onClick={() => {}}
                 		showConfirm={true}
                 		confirmProps={{
                 			confirmText: "Are you sure you want to mark as Widget?",

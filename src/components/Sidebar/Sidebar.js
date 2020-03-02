@@ -102,9 +102,9 @@ export default function ChangelogSideBar() {
 
 			<Collapse in={ openCollapseWidgets } timeout="auto" unmountOnExit>
 				<List component="div" disablePadding>
-					<Link to={ "/app/anomalies/changelog"} style={{ textDecoration: "none" }} key={ "Changelog" }>
+					<Link to={ "/app/widgets/changelog"} style={{ textDecoration: "none" }} key={ "Changelog" }>
 						<ListItem button className={clsx(classes.drawer, { [classes.nestedOpen]: open, [classes.nestedClosed]: !open, })}
-							selected={ activeRoute( "/app/anomalies/changelog" )} title="Changelog">
+							selected={ activeRoute( "/app/widgets/changelog" )} title="Changelog">
 							<ListItemIcon>
 								<ChangeHistory />
 							</ListItemIcon>

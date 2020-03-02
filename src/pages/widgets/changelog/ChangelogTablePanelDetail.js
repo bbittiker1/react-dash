@@ -14,13 +14,6 @@ import { withStyles } from "@material-ui/core/styles";
 
 import ButtonLoader from "../../../components/ButtonLoader/ButtonLoader";
 
-import {
-	handleUnpick,
-	handleAddBaseline,
-	handleMarkAnomaly,
-	handlePick
-} from "../Anomalies";
-
 const meta = {
 	"UNPICK": "Unpick",
 	"PICK": "Pick",
@@ -67,21 +60,20 @@ class ChangelogTablePanelDetail extends React.Component {
 	}
 
     static meta = {
-    	title: "Anomalies list",
+    	title: "Widgets list",
     	description: "About description",
     	maxBaselineRows: 4,
     	UNPICK: "Unpick",
     	PICK: "Pick",
     	LOADING: "Loading...",
     	BASELINE: "Baseline",
-    	ANOMALY: "Anomaly",
+    	ANOMALY: "Widget",
     	ADD_BASELINE: "Add to Baseline",
-    	MARK_ANOMALY: "Mark as Anomaly",
+    	MARK_ANOMALY: "Mark as Widget",
     	ADD_MONITORING: "Add to Monitoring"
     };
 
     render() {
-    	let onClick = (this.rowData.user_id) ? handleUnpick : handlePick;
     	let buttonText = (this.rowData.user_id) ? meta.UNPICK : meta.PICK;
     	let handleType = (this.rowData.user_id) ? this.parentProps.isFetchingUnpick: this.parentProps.isFetchingPick;
 
@@ -144,7 +136,7 @@ class ChangelogTablePanelDetail extends React.Component {
     						<ButtonLoader
     							buttonId={ this.rowData.id }
     							isFetching={ handleType }
-    							onClick={() => onClick(this.rowData, this.parentProps, this.currentUserId, this.rowData.id)}
+    							onClick={() => {}}
     							buttonText={buttonText}
     							fetchingButtonText={meta.LOADING}
     							block={ true }
@@ -159,7 +151,7 @@ class ChangelogTablePanelDetail extends React.Component {
                             <ButtonLoader
                             	buttonId={this.rowData.id}
                             	isFetching={this.props.isFetchingMarkAnomaly}
-                            	onClick={ () => handleMarkAnomaly(this.rowData, this.parentProps, this.rowData.id) }
+                            	onClick={ () => {} }
                             	buttonText={"Mark Widget"}
                             	fetchingButtonText={meta.LOADING}
                             	block={true}
@@ -169,7 +161,7 @@ class ChangelogTablePanelDetail extends React.Component {
                             	showConfirm={true}
                             	variant="outlined"
                             	confirmProps={{
-                            		confirmText: "Are you sure you want to mark as Anomaly?",
+                            		confirmText: "Are you sure you want to mark as Widget?",
                             		cancelButtonText: "Cancel",
                             		okButtonText: "OK"
                             	}} /> }

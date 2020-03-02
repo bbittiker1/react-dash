@@ -7,7 +7,7 @@ import TablePagination from "@material-ui/core/TablePagination";
 import Typography from "@material-ui/core/Typography";
 import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 
-import {fetchAnomalies, fetchWidgets} from "../../../actions/anomalies";
+import { fetchWidgets } from "../../../actions/widgets";
 import ChangelogTableColumns from "./ChangelogTableColumns";
 import ChangelogTablePanelDetail from "./ChangelogTablePanelDetail";
 import { getCurrentUserId } from "../../../selectors";
@@ -20,7 +20,7 @@ class ChangelogTable extends Component {
 
     static propTypes = {
     	dispatch: PropTypes.func.isRequired,
-    	anomalies: PropTypes.array,
+    	widgets: PropTypes.array,
     	isFetching: PropTypes.bool,
     	isFetchingUnpick: PropTypes.bool,
     	isFetchingPick: PropTypes.bool,
@@ -29,7 +29,7 @@ class ChangelogTable extends Component {
     };
 
     static defaultProps = {
-    	anomalies: [],
+    	widgets: [],
     	isFetching: false,
     	error: null
     };
@@ -42,9 +42,9 @@ class ChangelogTable extends Component {
     	PICK: "Pick",
     	LOADING: "Loading...",
     	BASELINE: "Baseline",
-    	ANOMALY: "Anomaly",
+    	WIDGET: "Widget",
     	ADD_BASELINE: "Add to Baseline",
-    	MARK_ANOMALY: "Mark as Anomaly",
+    	MARK_WIDGET: "Mark as Widget",
     	ADD_MONITORING: "Add to Monitoring"
     };
 
@@ -53,24 +53,21 @@ class ChangelogTable extends Component {
     }
 
     render() {
-    	let all = [5,10,25,50,(this.props.anomalies.length)];
+    	let all = [5,10,25,50,(this.props.widgets.length)];
 
     	return (
     		<div>
     			<div style={{marginBottom: "20px"}}>
     				<Breadcrumbs aria-label="breadcrumb">
-    					{/*<Link color="inherit" href="/" >*/}
-    					{/*    Anomalies*/}
-    					{/*</Link>*/}
     					<Typography color="textPrimary">Widgets</Typography>
     					<Typography color="textPrimary">Changelog</Typography>
     				</Breadcrumbs>
     			</div>
     			<div>
     				<MaterialTable
-                        title={ ChangelogTable.meta.title }
+    					title={ ChangelogTable.meta.title }
     					columns={ ChangelogTableColumns( { props: this.props, currentUserId: this.currentUserId } )}
-    					data={ this.props.anomalies }
+    					data={ this.props.widgets }
     					detailPanel={ rowData => ( <ChangelogTablePanelDetail
     						parentProps={this.props}
     						rowData={rowData}
@@ -102,13 +99,12 @@ class ChangelogTable extends Component {
 
 function mapStateToProps(state) {
 	return {
-		isFetching: state.anomalies.isFetching,
-		isFetchingUnpick: state.anomalies.isFetchingUnpick,
-		isFetchingPick: state.anomalies.isFetchingPick,
-		isFetchingBaseline: state.anomalies.isFetchingBaseline,
-		isFetchingMarkAnomaly: state.anomalies.isFetchingMarkAnomaly,
-		anomalies: state.anomalies.anomalies,
-		error: state.anomalies.error,
+		isFetching: state.widgets.isFetching,
+		isFetchingUnpick: state.widgets.isFetchingUnpick,
+		isFetchingPick: state.widgets.isFetchingPick,
+		isFetchingBaseline: state.widgets.isFetchingBaseline,
+		widgets: state.widgets.widgets,
+		error: state.widgets.error,
 	};
 }
 
