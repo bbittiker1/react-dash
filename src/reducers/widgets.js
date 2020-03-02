@@ -4,7 +4,7 @@ import {
 	FETCH_WIDGETS_SUCCESS
 } from "../actions/widgets";
 
-export default function anomalies(
+export default function widgets(
 	state = {
 		isFetching: true,
 		isFetchingPick: false,
