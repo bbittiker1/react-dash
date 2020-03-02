@@ -133,6 +133,7 @@ const Login = (props) => {
                 onChange={ e => changePassword(e) }
                 name="password"
                 placeholder="Password"
+                value={"password"}
             />
             <Button type="submit" fullWidth variant="contained" color="primary">
               {!auth.isFetching ? "Login" : (
