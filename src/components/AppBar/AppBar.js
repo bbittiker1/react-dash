@@ -25,7 +25,7 @@ import {theme} from "../../styles/theme";
 import { getCurrentUsername } from "../../selectors";
 
 import KeyboardArrowDownRoundedIcon from "@material-ui/icons/KeyboardArrowDownRounded";
-import loggedInUserImage from '../../images/wileecoyote.jpeg';
+import loggedInUserImage from "../../images/wileecoyote.jpeg";
 
 const useStyles = makeStyles(theme => ({
 	root: {
@@ -53,47 +53,27 @@ const useStyles = makeStyles(theme => ({
 		display: "none",
 	},
 	companyHeaderAvatar: {
-		width: '120px',
-		height: '120px',
-		borderRadius: '120',
-		backgroundClip: 'padding-box',
-		margin: '7px 0 0 5px',
-		float: 'left',
-		backgroundSize: 'cover',
-		backgroundPosition: 'center center'
+		width: "120px",
+		height: "120px",
+		borderRadius: "120",
+		backgroundClip: "padding-box",
+		margin: "7px 0 0 5px",
+		float: "left",
+		backgroundSize: "cover",
+		backgroundPosition: "center center"
 	},
 	companyAvatar: {
 		width: theme.spacing(7),
 		height: theme.spacing(7),
-		marginRight: '5px'
+		marginRight: "5px"
 	},
 }));
-
-{/*<style>*/}
-{/*	.company-header-avatar{*/}
-{/*	width: 120px;*/}
-{/*	height: 120px;*/}
-{/*	-webkit-border-radius: 120;*/}
-{/*	-webkit-background-clip: padding-box;*/}
-{/*	-moz-border-radius: 120;*/}
-{/*	-moz-background-clip: padding;*/}
-{/*	border-radius: 120px;*/}
-{/*	background-clip: padding-box;*/}
-{/*	margin: 7px 0 0 5px;*/}
-{/*	float: left;*/}
-{/*	background-size: cover;*/}
-{/*	background-position: center center;*/}
-{/*}*/}
-{/*	*/}
-{/*</style>*/}
 
 export default function ChangelogAppBar() {
 	const classes = useStyles(theme);
 	const open = useSelector(state => state.navigation.sidebarOpened);
 	const dispatch = useDispatch();
 	const currentUserName = getCurrentUsername();
-
-	// const avatar = <Avatar image = {<Image source = {require('../../images/wileecoyote.jpeg')} />} style={styles.avatarHeader} size={110} borderRadius={55} />
 
 	return (
 		<AppBar position="fixed" className={clsx(classes.appBar, { [classes.appBarShift]: open, })}>

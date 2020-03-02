@@ -1,30 +1,12 @@
 import React, { useState }from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-
-import Drawer from "@material-ui/core/Drawer";
-import { makeStyles } from "@material-ui/core/styles";
-import List from "@material-ui/core/List";
-import Divider from "@material-ui/core/Divider";
-import IconButton from "@material-ui/core/IconButton";
-import Collapse from "@material-ui/core/Collapse";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
-import ListItemText from "@material-ui/core/ListItemText";
-
-import Home from "@material-ui/icons/Home";
-import BugReport from "@material-ui/icons/BugReport";
-import ChangeHistory from "@material-ui/icons/ChangeHistory";
-import ChevronLeft from "@material-ui/icons/ChevronLeft";
-import ChevronRight from "@material-ui/icons/ChevronRight";
-import TouchApp from "@material-ui/icons/TouchApp";
-import Fireplace from "@material-ui/icons/Fireplace";
-import AllInclusive from "@material-ui/icons/AllInclusive";
-import ExpandLess from "@material-ui/icons/ExpandLess";
-import ExpandMore from "@material-ui/icons/ExpandMore";
-import DevicesOtherIcon from "@material-ui/icons/DevicesOther";
-
 import clsx from "clsx";
+
+import { Drawer, List, Divider, IconButton, Collapse, ListItem, ListItemIcon, ListItemText } from "@material-ui/core";
+import { Home, BugReport, ChangeHistory, ChevronLeft, ChevronRight, ExpandLess, ExpandMore } from "@material-ui/icons";
+import { makeStyles } from "@material-ui/core/styles";
+
 import { theme } from "../../styles/theme";
 import {DRAWER_WIDTH} from "../../constants";
 
@@ -75,13 +57,12 @@ const useStyles = makeStyles(theme => ({
 }));
 
 
-export default function ChangelogSideBar(props) {
+export default function ChangelogSideBar() {
 	const open = useSelector(state => state.navigation.sidebarOpened);
 	const dispatch = useDispatch();
 	const classes = useStyles(theme);
 
-	const [openCollapseAnomalies, setOpenCollapseAnomalies] = useState(false);
-	const [openCollapseFirewall, setOpenCollapseFirewall] = useState(false);
+	const [openCollapseWidgets, setOpenCollapseWidgets] = useState(false);
 
 	const activeRoute = (routeName) => {
 		return window.location.hash.indexOf(routeName) > -1;
@@ -111,15 +92,15 @@ export default function ChangelogSideBar(props) {
 				</ListItem>
 			</Link>
 
-			<ListItem button onClick={ () => setOpenCollapseAnomalies(!openCollapseAnomalies) } title="Anomalies">
+			<ListItem button onClick={ () => setOpenCollapseWidgets(!openCollapseWidgets) } title="Widgets">
 				<ListItemIcon>
 					<BugReport />
 				</ListItemIcon>
 				<ListItemText primary="Widgets" />
-				{ openCollapseAnomalies ? <ExpandLess/> : <ExpandMore/> }
+				{ openCollapseWidgets ? <ExpandLess/> : <ExpandMore/> }
 			</ListItem>
 
-			<Collapse in={ openCollapseAnomalies } timeout="auto" unmountOnExit>
+			<Collapse in={ openCollapseWidgets } timeout="auto" unmountOnExit>
 				<List component="div" disablePadding>
 					<Link to={ "/app/anomalies/changelog"} style={{ textDecoration: "none" }} key={ "Changelog" }>
 						<ListItem button className={clsx(classes.drawer, { [classes.nestedOpen]: open, [classes.nestedClosed]: !open, })}

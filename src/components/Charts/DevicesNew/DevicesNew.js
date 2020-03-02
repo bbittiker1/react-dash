@@ -35,11 +35,10 @@ export default function DevicesNew() {
 	const classes = chartStyles();
 
 	useEffect( () => {
-
-		async function fetchData(f, t, l) {
+		async function fetchData() {
 			setLoading(true);
 
-			return new Promise((resolve, reject) => {
+			return new Promise((resolve) => {
 				resolve(fakeData.default);
 			});
 		}
@@ -50,7 +49,7 @@ export default function DevicesNew() {
 				setData(res.data);
 				// setTotal(res.data.total);
 			})
-			.catch( res => {
+			.catch( () => {
 				setError("Unknown error occurred.");
 			})
 			.finally(() => {
