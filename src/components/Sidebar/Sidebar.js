@@ -130,15 +130,6 @@ export default function ChangelogSideBar(props) {
 							<ListItemText inset primary="Changelog" style={{paddingLeft: "0"}}/>
 						</ListItem>
 					</Link>
-					<Link to={ "/app/anomalies/convicted"} style={{ textDecoration: "none" }} key={ "ManuallyConvicted" }>
-						<ListItem button className={clsx(classes.drawer, { [classes.nestedOpen]: open, [classes.nestedClosed]: !open, })}
-							selected={ activeRoute( "/app/anomalies/convicted" )} title="Manually Widgeted">
-							<ListItemIcon>
-								<TouchApp />
-							</ListItemIcon>
-							<ListItemText inset primary="Manually Widgeted" style={{paddingLeft: "0"}}/>
-						</ListItem>
-					</Link>
 				</List>
 			</Collapse>
 		</Drawer>

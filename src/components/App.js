@@ -13,7 +13,6 @@ import ThemeProvider from "@material-ui/styles/ThemeProvider";
 import LayoutComponent from "../components/Layout/Layout";
 import PrivateRoute from "./PrivateRoute";
 import Login from "../pages/login/Login";
-import Register from "../pages/register/Register";
 import { theme } from "../styles/theme.js";
 
 import Config from "../config";
@@ -68,7 +67,6 @@ class App extends React.Component {
 								<Route path="/app" exact render={() => <Redirect to="/app/main"/>}/>
 								<PrivateRoute path="/app" dispatch={this.props.dispatch} component={LayoutComponent}/>
 								<Route path="/documentation" exact render={() => <Redirect to="/documentation/getting-started/overview"/>}/>
-								<Route path="/register" exact component={Register}/>
 								<Route path="/login" exact component={ Login } />
 							</Switch>
 						</HashRouter>

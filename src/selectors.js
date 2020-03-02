@@ -1,5 +1,5 @@
 import config from "./config";
-import jwt from "jsonwebtoken";
+// import jwt from "jsonwebtoken";
 
 import {JWT_TOKEN, CURRENT_USER, CURRENT_USER_ID} from "./constants";
 
@@ -13,8 +13,8 @@ const isAuthenticated = (token) => {
 		return true;
 	}
 
-	const date = new Date().getTime() / 1000;
-	const data = jwt.decode(token);
+	// const date = new Date().getTime() / 1000;
+	// const data = jwt.decode(token);
 	return true;
 };
 

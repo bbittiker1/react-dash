@@ -10,8 +10,6 @@ import ChangelogSideBar from "../Sidebar/Sidebar";
 import Dashboard from "../../pages/dashboard/Dashboard";
 import Privacy from "../../pages/privacy/Privacy";
 import Anomalies from "../../pages/anomalies/Anomalies";
-import Firewall from "../../pages/firewall/Firewall";
-import Devices from "../../pages/devices/Devices";
 
 
 const useStyles = makeStyles(theme => ({
@@ -50,8 +48,6 @@ export default function Layout() {
 					<Route path="/app/privacy" exact component={Privacy} />
 					<Route path="/app/anomalies/changelog" exact component={Anomalies} />
 					<Route path="/app/anomalies/convicted" exact component={Anomalies} />
-					<Route path="/app/firewall/baseline" exact component={Firewall} />
-					<Route path="/app/devices" exact component={Firewall} />
 				</Switch>
 			</main>
 		</div>
