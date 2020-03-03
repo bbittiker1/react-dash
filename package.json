@@ -37,6 +37,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.2.0",
     "react-sparklines": "^1.7.0",
+    "react-svg-spinner": "^1.0.4",
     "react-toastify": "^5.4.1",
     "redux": "^4.0.4",
     "redux-logger": "^3.0.6",
