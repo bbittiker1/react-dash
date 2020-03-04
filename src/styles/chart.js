@@ -7,6 +7,7 @@ export const chartStyles = makeStyles  (theme => ({
 	card: {
 		border: "1px solid #e9ecee",
 		maxWidth: "748px",
+		// maxHeight: "500px",
 		margin: "24px auto"
 	},
 	avatar: {
@@ -48,8 +49,14 @@ export const chartStyles = makeStyles  (theme => ({
 	},
 	error: {
 		color: theme.palette.error.main
+	},
+	infiniteScrollLoader: {
+		height: "70px",
+		margin: "30px",
+		color: theme.palette.primary.main
 	}
-
 }));
+
+
 
 // export const chartStyles = useStyles(theme);

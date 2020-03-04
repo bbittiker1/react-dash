@@ -7,6 +7,8 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import DevicesNew from "../../components/Charts/DevicesNew/DevicesNew";
 import DevicesHousingInsight from "../../components/Charts/DevicesHousingInsight/DevicesHousingInsight";
+import List from "../../components/Scroll/List";
+
 
 import { theme } from "../../styles/theme";
 
@@ -41,6 +43,10 @@ export default function Dashboard() {
 
 				<Grid item xs={12} sm={8} md={6} lg={4}>
 					<DevicesHousingInsight />
+				</Grid>
+
+				<Grid item xs={12} sm={8} md={6} lg={4}>
+					<List />
 				</Grid>
 			</Grid>
 		</div>
