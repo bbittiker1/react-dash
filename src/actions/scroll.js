@@ -1,10 +1,11 @@
-import axios from "axios";
+// import axios from "axios";
 
 import * as fakeData from "../test/data/widgets.json";
 
 export const FETCH_SCROLL_REQ = "FETCH_SCROLL_REQ";
 export const FETCH_SCROLL_SUCCESS = "FETCH_SCROLL_SUCCESS";
 export const FETCH_SCROLL_FAIL = "FETCH_SCROLL_FAIL";
+export const FETCH_SCROLL_CLEAR = "FETCH_SCROLL_CLEAR";
 
 function requestFetchScroll() {
 	return {
@@ -23,6 +24,12 @@ function fetchScrollSuccess(res) {
 	};
 }
 
+function fetchScrollClearSuccess(res) {
+	return {
+		type: FETCH_SCROLL_CLEAR,
+	};
+}
+
 function fetchScrollFail(error) {
 	return {
 		type: FETCH_SCROLL_FAIL,
@@ -30,8 +37,25 @@ function fetchScrollFail(error) {
 	};
 }
 
-export const fetchScroll = (page, perPage) => {
+export const fetchScrollClear = () => {
+	return (dispatch) => {
+		dispatch(requestFetchScroll());
 
+		return new Promise((resolve, reject) => {
+			setTimeout(() => {
+				resolve();
+			}, 1000);
+		}).then(() => {
+			dispatch(fetchScrollClearSuccess());
+		}).catch(err => {
+			dispatch(fetchScrollFail(err));
+		});
+	};
+};
+
+
+
+export const fetchScroll = (page, perPage) => {
 	const myData = fakeData.default.data;
 
 	const from = (page * perPage);
@@ -44,13 +68,11 @@ export const fetchScroll = (page, perPage) => {
 			setTimeout(() => {
 				resolve();
 			}, 1000);
-		})
-		.then(() => {
+		}).then(() => {
 			dispatch(fetchScrollSuccess(myData.slice(from, to)));
-		})
-		.catch(err => {
+		}).catch(err => {
 			dispatch(fetchScrollFail(err));
-		})
+		});
 	};
 };
 

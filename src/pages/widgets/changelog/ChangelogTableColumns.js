@@ -3,9 +3,7 @@ import Moment from "react-moment";
 
 import IconLoader from "../../../components/IconLoader/IconLoader";
 
-import { theme } from "../../../styles/theme";
-
-
+// import { theme } from "../../../styles/theme";
 
 function ChangelogTableColumns({ props, currentUserId }) {
 	const timeFormatter = (ts) => {
@@ -24,48 +22,47 @@ function ChangelogTableColumns({ props, currentUserId }) {
 		);
 	};
 
-	const baselineFormatter = (row) => {
-		function truncate(cell) {
-			const maxRows = 8;
-			let fmtCell = cell;
-			let isTruncated = false;
-			if(cell.length > maxRows) {
-				fmtCell = cell.slice(0, maxRows);
-				isTruncated = true;
-			}
-
-			return {fmtCell, isTruncated};
-		}
-
-		const uniqueKey = row.id + Math.random().toString();
-
-		if(row) {
-			const {fmtCell, isTruncated} = truncate(row.a_bvalues);
-
-			let x = fmtCell.map( (b, i) => (
-				<div key={uniqueKey + i}>
-					{ b }
-				</div>
-			));
-
-			if(isTruncated) {
-				const moreLink =
-                    <React.Fragment key={row.id}>
-                    	<div style={{marginTop: "10px", color: theme.palette.linkColor, fontSize: "1rem"}}>
-                    		{/*<Button color="link">more...</Button>*/}
-                            more...
-                    	</div>
-                    </React.Fragment>;
-
-				x.push(moreLink);
-			}
-
-			return (x);
-		} else {
-			return (<div key={uniqueKey}/>);
-		}
-	};
-
+	// const baselineFormatter = (row) => {
+	// 	function truncate(cell) {
+	// 		const maxRows = 8;
+	// 		let fmtCell = cell;
+	// 		let isTruncated = false;
+	// 		if(cell.length > maxRows) {
+	// 			fmtCell = cell.slice(0, maxRows);
+	// 			isTruncated = true;
+	// 		}
+	//
+	// 		return {fmtCell, isTruncated};
+	// 	}
+	//
+	// 	const uniqueKey = row.id + Math.random().toString();
+	//
+	// 	if(row) {
+	// 		const {fmtCell, isTruncated} = truncate(row.a_bvalues);
+	//
+	// 		let x = fmtCell.map( (b, i) => (
+	// 			<div key={uniqueKey + i}>
+	// 				{ b }
+	// 			</div>
+	// 		));
+	//
+	// 		if(isTruncated) {
+	// 			const moreLink =
+	//                 <React.Fragment key={row.id}>
+	//                 	<div style={{marginTop: "10px", color: theme.palette.linkColor, fontSize: "1rem"}}>
+	//                 		{/*<Button color="link">more...</Button>*/}
+	//                         more...
+	//                 	</div>
+	//                 </React.Fragment>;
+	//
+	// 			x.push(moreLink);
+	// 		}
+	//
+	// 		return (x);
+	// 	} else {
+	// 		return (<div key={uniqueKey}/>);
+	// 	}
+	// };
 
 	const statusFormatter = (rowData) => {
 		if(rowData.user_id ) {

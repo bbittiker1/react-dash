@@ -1,15 +1,11 @@
 import React from "react";
 
-import Breadcrumbs from "@material-ui/core/Breadcrumbs";
-import Typography from "@material-ui/core/Typography";
-import Grid from "@material-ui/core/Grid";
+import { Breadcrumbs, Typography, Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 import DevicesNew from "../../components/Charts/DevicesNew/DevicesNew";
 import DevicesHousingInsight from "../../components/Charts/DevicesHousingInsight/DevicesHousingInsight";
 import List from "../../components/Scroll/List";
-
-
 import { theme } from "../../styles/theme";
 
 const useStyles = makeStyles(theme => ({
@@ -37,13 +33,13 @@ export default function Dashboard() {
 			</div>
 
 			<Grid container className={classes.root} spacing={4}>
-				{/*<Grid item xs={12} sm={8} md={6} lg={4}>*/}
-					{/*<DevicesNew />*/}
-				{/*</Grid>*/}
+				<Grid item xs={12} sm={8} md={6} lg={4}>
+					<DevicesNew />
+				</Grid>
 
-				{/*<Grid item xs={12} sm={8} md={6} lg={4}>*/}
-					{/*<DevicesHousingInsight />*/}
-				{/*</Grid>*/}
+				<Grid item xs={12} sm={8} md={6} lg={4}>
+					<DevicesHousingInsight />
+				</Grid>
 
 				<Grid item xs={12} sm={8} md={6} lg={4}>
 					<List />
@@ -52,4 +48,3 @@ export default function Dashboard() {
 		</div>
 	);
 }
-

@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route, withRouter } from "react-router";
 
 import ChangelogTable from "./changelog/ChangelogTable";
-import Toast from "../../components/Toast/Toast";
+// import Toast from "../../components/Toast/Toast";
 
 class Widgets extends React.Component {
 	render() {

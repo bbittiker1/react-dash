@@ -80,7 +80,7 @@ class IconLoader extends React.Component {
 
     render() {
     	const { isFetching /*, buttonText, fetchingButtonText*/ } = this.props;
-    	const onClick = this.props.showConfirm ? this.toggleConfirm : this.submit;
+    	// const onClick = this.props.showConfirm ? this.toggleConfirm : this.submit;
     	const confirmProps = this.props.confirmProps || {};
     	const clicked = (this.clickIdentifier) ? (this.clickIdentifier === this.props.buttonId) : false;
 

@@ -8,7 +8,6 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import BugReport from "@material-ui/icons/BugReport";
 import CallToAction from "@material-ui/icons/CallToAction";
-import TableChart from "@material-ui/icons/TableChart";
 import MoreVert from "@material-ui/icons/MoreVert";
 import { withStyles } from "@material-ui/core/styles";
 

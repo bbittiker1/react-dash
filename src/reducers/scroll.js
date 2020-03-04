@@ -1,7 +1,8 @@
 import {
 	FETCH_SCROLL_FAIL,
 	FETCH_SCROLL_REQ,
-	FETCH_SCROLL_SUCCESS
+	FETCH_SCROLL_SUCCESS,
+	FETCH_SCROLL_CLEAR
 } from "../actions/scroll";
 
 export default function scroll(
@@ -32,6 +33,13 @@ export default function scroll(
 			isLoading: false,
 			error: action.error,
 			// users: state.users
+		});
+	case FETCH_SCROLL_CLEAR:
+		return Object.assign({}, state, {
+			isLoading: false,
+			users: [],
+			page: 0,
+			error: null
 		});
 	default:
 		return state;
