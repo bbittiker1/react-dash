@@ -37,13 +37,13 @@ export default function Dashboard() {
 			</div>
 
 			<Grid container className={classes.root} spacing={4}>
-				<Grid item xs={12} sm={8} md={6} lg={4}>
-					<DevicesNew />
-				</Grid>
+				{/*<Grid item xs={12} sm={8} md={6} lg={4}>*/}
+					{/*<DevicesNew />*/}
+				{/*</Grid>*/}
 
-				<Grid item xs={12} sm={8} md={6} lg={4}>
-					<DevicesHousingInsight />
-				</Grid>
+				{/*<Grid item xs={12} sm={8} md={6} lg={4}>*/}
+					{/*<DevicesHousingInsight />*/}
+				{/*</Grid>*/}
 
 				<Grid item xs={12} sm={8} md={6} lg={4}>
 					<List />

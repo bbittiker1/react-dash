@@ -1,65 +1,45 @@
 import React, {useEffect, useState, useRef, useCallback } from "react";
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+
+import {Avatar, Card, CardContent, CardHeader, IconButton} from "@material-ui/core";
 import Spinner from "react-svg-spinner";
 
-import axios from "axios";
-import {Avatar, Card, CardContent, CardHeader, IconButton} from "@material-ui/core";
 import PieChartIcon from "@material-ui/core/SvgIcon/SvgIcon";
 import { chartStyles } from "../../styles/chart";
+import { fetchScroll } from "../../actions/scroll";
 
-const List = () => {
+const List = (props) => {
+	const { fetchScroll, users, isLoading, page } = props;
 	const perPage = 10;
-	const [users, setUsers] = useState([]);
-	const [page, setPage] = useState(0);
-	const [isLoading, setLoading] = useState(false);
-
 	const classes = chartStyles();
 
 	// Create ref to attach to the loader div
 	const loadingRef = useRef(null);
 
-	const getUsers = (page) => {
-		setLoading(true);
-		const url = `https://api.github.com/users?since=${page}&per_page=${perPage}`;
-
-		axios
-			.get(url)
-			.then(res => {
-				setUsers( [...users, ...res.data]);
-				setPage(page + 1);
-			})
-			.catch(err => {
-				console.log(err);
-			})
-			.finally(() => {
-				setLoading(false);
-			});
-	};
-
 	const reload = () => {
-		setUsers([]);
-		setPage(0);
+		// setUsers([]);
+		// setPage(0);
 	};
 
 	const handleObserver = useCallback((entries) => {
 		const entry = entries[0];
 
 		if (entry.isIntersecting) {
-			!isLoading && getUsers(page);
+			!isLoading && fetchScroll(page, perPage);
 		}
 
-	}, [isLoading]);
+	}, [isLoading, fetchScroll]);
 
 	useEffect(() => {
-		const options = {
-			root: null, // Page as root
-			rootMargin: "0px",
-			threshold: 1.0
-		};
-
 		// Create an observer
 		const observer = new IntersectionObserver(
 			handleObserver, //callback
-			options
+			{
+				root: null, // Page as root
+				rootMargin: "0px",
+				threshold: 1.0
+			}
 		);
 
 		//Observe the `loadingRef`
@@ -95,7 +75,7 @@ const List = () => {
 				<div className="container" style={{ maxHeight: "300px", minHeight: "300px", overflowY: "scroll"}} >
 					<div>
 						<ul >
-							{users.map(user => <li key={Math.random() * 100}>{user.login}</li>)}
+							{users.map(user => <li key={Math.random() * 100}>{user.avalues}: {user.picked_at}</li>)}
 						</ul>
 					</div>
 					<div ref={loadingRef} className={classes.infiniteScrollLoader}>
@@ -107,4 +87,18 @@ const List = () => {
 	);
 };
 
-export default (List);
+const mapStateToProps = (state) => {
+	const {isLoading, users, error, page} = state.scroll;
+	return {
+		isLoading,
+		users,
+		error,
+		page
+	};
+};
+
+const mapDispatchToProps = (dispatch) => {
+	return bindActionCreators({ fetchScroll }, dispatch);
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(List);

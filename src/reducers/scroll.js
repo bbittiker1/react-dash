@@ -6,32 +6,32 @@ import {
 
 export default function scroll(
 	state = {
-		isFetching: true,
-		isFetchingPick: false,
-		isFetchingUnpick: false,
-		isFetchingBaseline: false,
-		error: null
+		isLoading: false,
+		error: null,
+		users: [],
+		page: 0
 	},
 	action
 ) {
 	switch (action.type) {
 	case FETCH_SCROLL_REQ:
 		return Object.assign({}, state, {
-			isFetching: true,
+			isLoading: true,
 			error: null,
-			widgets: []
+			// users: state.users
 		});
 	case FETCH_SCROLL_SUCCESS:
 		return Object.assign({}, state, {
-			isFetching: false,
-			widgets: action.widgets.default.data,
+			isLoading: false,
+			users: [...state.users, ...action.users],
+			page: state.page + 1,
 			error: null
 		});
 	case FETCH_SCROLL_FAIL:
 		return Object.assign({}, state, {
-			isFetching: false,
+			isLoading: false,
 			error: action.error,
-			widgets: []
+			// users: state.users
 		});
 	default:
 		return state;
