@@ -5,8 +5,8 @@ import { connect } from "react-redux";
 import { makeStyles } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
-import ChangelogAppBar from "../AppBar/AppBar";
-import ChangelogSideBar from "../Sidebar/Sidebar";
+import DashAppBar from "../AppBar/AppBar";
+import SideBar from "../Sidebar/Sidebar";
 import Dashboard from "../../pages/dashboard/Dashboard";
 import Widgets from "../../pages/widgets/Widgets";
 
@@ -36,8 +36,8 @@ export default function Layout() {
 	return (
 		<div className={classes.root}>
 			<CssBaseline />
-			<ChangelogAppBar />
-			<ChangelogSideBar />
+			<DashAppBar />
+			<SideBar />
 			<main className={classes.content}>
 				<div className={classes.toolbar} />
 

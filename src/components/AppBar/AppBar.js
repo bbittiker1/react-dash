@@ -69,7 +69,7 @@ const useStyles = makeStyles(theme => ({
 	},
 }));
 
-export default function ChangelogAppBar() {
+export default function DashAppBar() {
 	const classes = useStyles(theme);
 	const open = useSelector(state => state.navigation.sidebarOpened);
 	const dispatch = useDispatch();
@@ -116,4 +116,4 @@ export default function ChangelogAppBar() {
 	);
 }
 
-connect(null, null)(ChangelogAppBar);
+connect(null, null)(DashAppBar);
