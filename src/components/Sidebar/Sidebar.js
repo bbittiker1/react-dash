@@ -27,9 +27,11 @@ const useStyles = makeStyles(theme => ({
 			duration: theme.transitions.duration.leavingScreen,
 		}),
 		overflowX: "hidden",
-		width: theme.spacing(7) + 1, [theme.breakpoints.up("sm")]: {
-			width: theme.spacing(7) + 1,
+		[theme.breakpoints.down("sm")]: {
+			// Dont show mimimized sidebar on small devices/screens.
+			width: 0
 		},
+		width: theme.spacing(7) + 2	// 58px
 	},
 	toolbar: {
 		display: "flex",
@@ -57,10 +59,12 @@ const useStyles = makeStyles(theme => ({
 }));
 
 
-export default function ChangelogSideBar() {
+
+
+export default function SideBar() {
 	const open = useSelector(state => state.navigation.sidebarOpened);
 	const dispatch = useDispatch();
-	const classes = useStyles(theme);
+	const classes = useStyles();
 
 	const [openCollapseWidgets, setOpenCollapseWidgets] = useState(false);
 
