@@ -97,9 +97,9 @@ export default function ChangelogAppBar() {
 						<React.Fragment>
 							<Button  {...bindTrigger(popupState)} variant="contained" color="primary" disableElevation>
 								<Avatar alt="Remy Sharp" src={loggedInUserImage} className={classes.large} />
-								<span>
-									{currentUserName}
-								</span>
+								{/*<span>*/}
+								{/*	{currentUserName}*/}
+								{/*</span>*/}
 								<span style={{marginLeft: "3px", paddingTop: "5px"}}>
 									<KeyboardArrowDownRoundedIcon />
 								</span>
